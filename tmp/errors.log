@@ -1,0 +1,64 @@
+[2018-04-22 17:15:02] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\public\index.php | Строка: 7
+----------------------
+[2018-04-22 17:15:02] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\public\index.php | Строка: 7
+----------------------
+[2018-04-22 17:15:02] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\public\index.php | Строка: 7
+----------------------
+[2018-04-22 17:15:02] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\public\index.php | Строка: 7
+----------------------
+[2018-04-22 17:15:02] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\public\index.php | Строка: 7
+----------------------
+[2018-04-22 17:15:02] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\public\index.php | Строка: 7
+----------------------
+[2018-04-22 17:18:01] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\public\index.php | Строка: 7
+----------------------
+[2018-04-22 17:18:18] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\public\index.php | Строка: 7
+----------------------
+[2018-04-22 17:18:21] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\public\index.php | Строка: 7
+----------------------
+[2018-04-22 17:18:21] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\public\index.php | Строка: 7
+----------------------
+[2018-04-22 17:18:22] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\public\index.php | Строка: 7
+----------------------
+[2018-04-22 17:18:22] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\public\index.php | Строка: 7
+----------------------
+[2018-04-22 17:18:22] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\public\index.php | Строка: 7
+----------------------
+[2018-04-22 17:18:22] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\public\index.php | Строка: 7
+----------------------
+[2018-04-22 17:18:23] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\public\index.php | Строка: 7
+----------------------
+[2018-04-22 17:18:23] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\public\index.php | Строка: 7
+----------------------
+[2018-04-22 17:18:23] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\public\index.php | Строка: 7
+----------------------
+[2018-04-22 17:18:23] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\public\index.php | Строка: 7
+----------------------
+[2018-04-22 17:18:55] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\public\index.php | Строка: 7
+----------------------
+[2018-04-22 17:19:22] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\public\index.php | Строка: 7
+----------------------
+[2018-04-22 17:20:52] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\public\index.php | Строка: 7
+----------------------
+[2018-04-22 17:21:04] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\public\index.php | Строка: 7
+----------------------
+[2018-04-22 18:14:37] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\vendor\ishop\core\Router.php | Строка: 31
+----------------------
+[2018-04-22 18:19:42] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\vendor\ishop\core\Router.php | Строка: 31
+----------------------
+[2018-04-22 18:19:43] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\vendor\ishop\core\Router.php | Строка: 31
+----------------------
+[2018-04-22 18:38:17] Текст ошибки: Контроллер app\controllers\PageNeController не найден | Файл: C:\OSPanel\domains\ishop2\vendor\ishop\core\Router.php | Строка: 34
+----------------------
+[2018-04-22 18:42:04] Текст ошибки: Контроллер app\controllers\PageController не найден | Файл: C:\OSPanel\domains\ishop2\vendor\ishop\core\Router.php | Строка: 39
+----------------------
+[2018-04-22 18:42:14] Текст ошибки: Контроллер app\controllers\MainController не найден | Файл: C:\OSPanel\domains\ishop2\vendor\ishop\core\Router.php | Строка: 39
+----------------------
+[2018-04-22 18:43:18] Текст ошибки: Метод app\controllers\MainController::indexAction не найден | Файл: C:\OSPanel\domains\ishop2\vendor\ishop\core\Router.php | Строка: 36
+----------------------
+[2018-04-22 18:44:31] Текст ошибки: Контроллер app\controllers\PageController не найден | Файл: C:\OSPanel\domains\ishop2\vendor\ishop\core\Router.php | Строка: 39
+----------------------
+[2018-04-22 18:45:07] Текст ошибки: Метод app\controllers\PageController::viewAction не найден | Файл: C:\OSPanel\domains\ishop2\vendor\ishop\core\Router.php | Строка: 36
+----------------------
+[2018-04-22 18:46:44] Текст ошибки: Метод app\controllers\PageController::indexAction не найден | Файл: C:\OSPanel\domains\ishop2\vendor\ishop\core\Router.php | Строка: 36
+----------------------
