@@ -18,7 +18,7 @@ class Registry
     {
         if(isset(self::$properties[$name]))
         {
-            return self::$properties[name];
+            return self::$properties[$name];
         }
         return null;
     }

@@ -10,18 +10,9 @@ class MainController extends AppController
 
     public function indexAction()
     {
-        $posts = \R::findAll('test');
-        $post = \R::findOne('test', 'id = ?', [2]);
+        $brands = \R::find('brand', 'LIMIT 3');
+        $hits = \R::find('product', "hit = '1' AND status = '1' LIMIT 8");
         $this->setMeta('Главная', 'Описание', 'Ключенвики');
-        $name = 'Andrey';
-        $age = 30;
-        $names = ['Viktor', 'John', 'Nik'];
-        $cache = Cache::instance();
-        $data = $cache->get('test');
-        if(!$data){
-            $cache->set('test', $names);
-        }
-        debug($data);
-        $this->set(compact('name','age', 'names', 'posts'));
+        $this->set(compact('brands', 'hits'));
     }
 }

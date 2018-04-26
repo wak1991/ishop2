@@ -17,7 +17,7 @@ define("CACHE", ROOT . '/tmp/cache');
 // папка конфигураций
 define("CONF", ROOT . '/config');
 // шаблон сайта по умолчанию
-define("LAYOUT", 'default');
+define("LAYOUT", 'watches');
 // http://ishop2/public/index.php
 $app_path = "http://{$_SERVER['HTTP_HOST']}{$_SERVER['PHP_SELF']}";
 // http://ishop2/public/
