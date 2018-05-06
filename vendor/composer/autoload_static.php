@@ -6,6 +6,10 @@ namespace Composer\Autoload;
 
 class ComposerStaticInit7745c5b2263ffeaf6554280317076cd2
 {
+    public static $files = array (
+        '2c102faa651ef8ea5874edb585946bce' => __DIR__ . '/..' . '/swiftmailer/swiftmailer/lib/swift_required.php',
+    );
+
     public static $prefixLengthsPsr4 = array (
         'i' => 
         array (
@@ -36,11 +40,22 @@ class ComposerStaticInit7745c5b2263ffeaf6554280317076cd2
         ),
     );
 
+    public static $prefixesPsr0 = array (
+        'V' => 
+        array (
+            'Valitron' => 
+            array (
+                0 => __DIR__ . '/..' . '/vlucas/valitron/src',
+            ),
+        ),
+    );
+
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInit7745c5b2263ffeaf6554280317076cd2::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInit7745c5b2263ffeaf6554280317076cd2::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit7745c5b2263ffeaf6554280317076cd2::$prefixesPsr0;
 
         }, null, ClassLoader::class);
     }

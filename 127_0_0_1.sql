@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Май 04 2018 г., 00:12
+-- Время создания: Май 06 2018 г., 19:02
 -- Версия сервера: 5.6.37
--- Версия PHP: 7.1.7
+-- Версия PHP: 5.6.31
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -294,6 +294,15 @@ CREATE TABLE `order` (
   `note` text
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
+--
+-- Дамп данных таблицы `order`
+--
+
+INSERT INTO `order` (`id`, `user_id`, `status`, `date`, `update_at`, `currency`, `note`) VALUES
+(4, 6, '0', '2018-05-06 14:50:02', NULL, 'UAH', 'Тест'),
+(5, 6, '0', '2018-05-06 14:52:36', NULL, 'UAH', 'Тест'),
+(6, 6, '0', '2018-05-06 14:56:54', NULL, 'UAH', '123');
+
 -- --------------------------------------------------------
 
 --
@@ -308,6 +317,23 @@ CREATE TABLE `order_product` (
   `title` varchar(255) NOT NULL,
   `price` float NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Дамп данных таблицы `order_product`
+--
+
+INSERT INTO `order_product` (`id`, `order_id`, `product_id`, `qty`, `title`, `price`) VALUES
+(6, 4, 2, 1, 'Casio MQ-24-7BUL', 1806),
+(7, 4, 3, 1, 'Casio GA-1000-1AER', 10320),
+(8, 4, 4, 1, 'Citizen JP1010-00E', 10320),
+(9, 4, 5, 15, 'Citizen BJ2111-08E', 12900),
+(10, 4, 2, 2, 'Casio MQ-24-7BUL (Red)', 1806),
+(11, 5, 2, 1, 'Casio MQ-24-7BUL', 1806),
+(12, 5, 3, 1, 'Casio GA-1000-1AER', 10320),
+(13, 5, 4, 1, 'Citizen JP1010-00E', 10320),
+(14, 5, 5, 15, 'Citizen BJ2111-08E', 12900),
+(15, 5, 2, 2, 'Casio MQ-24-7BUL (Red)', 1806),
+(16, 6, 1, 1, 'Casio MRP-700-1AVEF', 7740);
 
 -- --------------------------------------------------------
 
@@ -407,6 +433,15 @@ CREATE TABLE `user` (
   `address` varchar(255) NOT NULL,
   `role` enum('user','admin') NOT NULL DEFAULT 'user'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Дамп данных таблицы `user`
+--
+
+INSERT INTO `user` (`id`, `login`, `password`, `email`, `name`, `address`, `role`) VALUES
+(4, 'user1', '$2y$10$9ASS4qo17Thg1vivzdUEHOzwsrw3ZUDPWV4e1eEALuzexIpEtXsAy', '2@mail.ru', 'Дима', 'Пинск', 'user'),
+(5, 'user', '$2y$10$YXHzm5uwtu.9PgGnS1zX2.jUUelD14Sb.kt/8Mc43qcSlo9ZPY2zW', '1@mail.ru', 'Артём Копытник', 'Костюшко, 58, 75', 'user'),
+(6, 'wak', '$2y$10$QUqaGN56NyoNrft3e897Ee.i94d/iDUiV0ZfkQ84ZNrwBz5D6EIaa', 'wak131991@gmail.com', 'Артём Копытник', 'Костюшко, 58, 75', 'user');
 
 --
 -- Индексы сохранённых таблиц
@@ -543,12 +578,12 @@ ALTER TABLE `modification`
 -- AUTO_INCREMENT для таблицы `order`
 --
 ALTER TABLE `order`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 --
 -- AUTO_INCREMENT для таблицы `order_product`
 --
 ALTER TABLE `order_product`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
 --
 -- AUTO_INCREMENT для таблицы `product`
 --
@@ -558,7 +593,7 @@ ALTER TABLE `product`
 -- AUTO_INCREMENT для таблицы `user`
 --
 ALTER TABLE `user`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 --
 -- Ограничения внешнего ключа сохраненных таблиц
 --

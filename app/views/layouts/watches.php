@@ -102,6 +102,22 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!--bottom-header-->
 
 <div class="content">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <?php if(isset($_SESSION['error'])): ?>
+                    <div class="alert alert-danger">
+                        <?php echo $_SESSION['error']; unset($_SESSION['error']); ?>
+                    </div>
+                <?php endif; ?>
+                <?php if(isset($_SESSION['success'])): ?>
+                    <div class="alert alert-success">
+                        <?php echo $_SESSION['success']; unset($_SESSION['success']); ?>
+                    </div>
+                <?php endif; ?>
+            </div>
+        </div>
+    </div>
     <?=$content;?>
 </div>
 
@@ -187,6 +203,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         </div>
     </div>
 </div>
+<div class="preloader"><img src="images/ring.svg" alt=""></div>
 <!--Modal-->
 <?php $curr = \ishop\App::$app->getProperty('currency'); ?>
 <script>
@@ -198,6 +215,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 <script src="js/jquery-1.11.0.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/validator.js"></script>
 <script src="js/typeahead.bundle.js"></script>
 <!--dropdown-->
 <script src="js/jquery.easydropdown.js"></script>

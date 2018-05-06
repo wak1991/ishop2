@@ -736,3 +736,91 @@
 ----------------------
 [2018-05-05 22:45:36] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\vendor\ishop\core\Router.php | Строка: 44
 ----------------------
+[2018-05-06 11:55:07] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\vendor\ishop\core\Router.php | Строка: 44
+----------------------
+[2018-05-06 12:24:06] Текст ошибки: Rule 'lengtMin' has not been registered with Valitron\Validator::addRule(). | Файл: C:\OSPanel\domains\ishop2\vendor\vlucas\valitron\src\Valitron\Validator.php | Строка: 1134
+----------------------
+[2018-05-06 12:24:33] Текст ошибки: Rule 'lengtMin' has not been registered with Valitron\Validator::addRule(). | Файл: C:\OSPanel\domains\ishop2\vendor\vlucas\valitron\src\Valitron\Validator.php | Строка: 1134
+----------------------
+[2018-05-06 12:24:56] Текст ошибки: Rule 'lenghtMin' has not been registered with Valitron\Validator::addRule(). | Файл: C:\OSPanel\domains\ishop2\vendor\vlucas\valitron\src\Valitron\Validator.php | Строка: 1134
+----------------------
+[2018-05-06 12:28:55] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\vendor\ishop\core\Router.php | Строка: 44
+----------------------
+[2018-05-06 12:29:03] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\vendor\ishop\core\Router.php | Строка: 44
+----------------------
+[2018-05-06 13:04:31] Текст ошибки: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1@mail.ru' for key 'email' | Файл: C:\OSPanel\domains\ishop2\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 188
+----------------------
+[2018-05-06 13:39:01] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\vendor\ishop\core\Router.php | Строка: 44
+----------------------
+[2018-05-06 13:42:39] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\vendor\ishop\core\Router.php | Строка: 44
+----------------------
+[2018-05-06 13:43:53] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\vendor\ishop\core\Router.php | Строка: 44
+----------------------
+[2018-05-06 13:43:53] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\vendor\ishop\core\Router.php | Строка: 44
+----------------------
+[2018-05-06 13:43:54] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\vendor\ishop\core\Router.php | Строка: 44
+----------------------
+[2018-05-06 13:43:54] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\vendor\ishop\core\Router.php | Строка: 44
+----------------------
+[2018-05-06 13:45:47] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\vendor\ishop\core\Router.php | Строка: 44
+----------------------
+[2018-05-06 13:45:47] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\vendor\ishop\core\Router.php | Строка: 44
+----------------------
+[2018-05-06 13:45:47] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\vendor\ishop\core\Router.php | Строка: 44
+----------------------
+[2018-05-06 13:45:48] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\vendor\ishop\core\Router.php | Строка: 44
+----------------------
+[2018-05-06 13:45:48] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\vendor\ishop\core\Router.php | Строка: 44
+----------------------
+[2018-05-06 13:45:48] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\vendor\ishop\core\Router.php | Строка: 44
+----------------------
+[2018-05-06 13:45:52] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\vendor\ishop\core\Router.php | Строка: 44
+----------------------
+[2018-05-06 13:45:53] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\vendor\ishop\core\Router.php | Строка: 44
+----------------------
+[2018-05-06 13:45:53] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\vendor\ishop\core\Router.php | Строка: 44
+----------------------
+[2018-05-06 13:45:53] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\vendor\ishop\core\Router.php | Строка: 44
+----------------------
+[2018-05-06 13:47:10] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\vendor\ishop\core\Router.php | Строка: 44
+----------------------
+[2018-05-06 13:47:10] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\vendor\ishop\core\Router.php | Строка: 44
+----------------------
+[2018-05-06 13:47:10] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\vendor\ishop\core\Router.php | Строка: 44
+----------------------
+[2018-05-06 13:47:11] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\vendor\ishop\core\Router.php | Строка: 44
+----------------------
+[2018-05-06 13:47:11] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\vendor\ishop\core\Router.php | Строка: 44
+----------------------
+[2018-05-06 13:47:11] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\vendor\ishop\core\Router.php | Строка: 44
+----------------------
+[2018-05-06 13:47:11] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\vendor\ishop\core\Router.php | Строка: 44
+----------------------
+[2018-05-06 13:47:11] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\vendor\ishop\core\Router.php | Строка: 44
+----------------------
+[2018-05-06 13:47:11] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\vendor\ishop\core\Router.php | Строка: 44
+----------------------
+[2018-05-06 13:47:12] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\vendor\ishop\core\Router.php | Строка: 44
+----------------------
+[2018-05-06 13:47:23] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\vendor\ishop\core\Router.php | Строка: 44
+----------------------
+[2018-05-06 13:49:00] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\vendor\ishop\core\Router.php | Строка: 44
+----------------------
+[2018-05-06 14:49:09] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\vendor\ishop\core\Router.php | Строка: 44
+----------------------
+[2018-05-06 14:49:13] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\vendor\ishop\core\Router.php | Строка: 44
+----------------------
+[2018-05-06 18:34:14] Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ishop2.atrribute_value' doesn't exist | Файл: C:\OSPanel\domains\ishop2\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 188
+----------------------
+[2018-05-06 18:34:14] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\vendor\ishop\core\Router.php | Строка: 44
+----------------------
+[2018-05-06 18:34:14] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\vendor\ishop\core\Router.php | Строка: 44
+----------------------
+[2018-05-06 18:34:14] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\vendor\ishop\core\Router.php | Строка: 44
+----------------------
+[2018-05-06 18:55:14] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\vendor\ishop\core\Router.php | Строка: 44
+----------------------
+[2018-05-06 18:56:51] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\vendor\ishop\core\Router.php | Строка: 44
+----------------------
+[2018-05-06 19:01:24] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\vendor\ishop\core\Router.php | Строка: 44
+----------------------
