@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Май 06 2018 г., 19:02
+-- Время создания: Май 07 2018 г., 22:14
 -- Версия сервера: 5.6.37
 -- Версия PHP: 5.6.31
 
@@ -63,52 +63,25 @@ CREATE TABLE `attribute_product` (
 
 INSERT INTO `attribute_product` (`attr_id`, `product_id`) VALUES
 (1, 1),
+(1, 2),
+(1, 3),
 (2, 4),
-(2, 5),
-(2, 11),
-(2, 15),
-(2, 16),
-(2, 17),
-(2, 20),
-(2, 21),
-(2, 22),
-(3, 12),
-(3, 23),
-(3, 24),
-(3, 25),
-(3, 26),
-(4, 2),
-(4, 3),
-(4, 27),
-(4, 28),
 (5, 1),
+(5, 2),
+(5, 3),
 (5, 4),
-(5, 5),
-(5, 12),
-(5, 13),
-(6, 2),
-(6, 29),
-(6, 30),
-(6, 31),
-(6, 32),
-(6, 33),
-(7, 3),
-(7, 6),
 (8, 1),
-(9, 2),
-(9, 14),
-(10, 4),
-(10, 5),
-(10, 13),
-(11, 7),
-(11, 8),
-(11, 9),
-(11, 10),
+(8, 2),
+(8, 3),
+(8, 4),
 (12, 1),
-(14, 3),
-(16, 1),
-(16, 4),
-(16, 5);
+(12, 2),
+(12, 3),
+(12, 4),
+(18, 1),
+(18, 2),
+(18, 4),
+(19, 3);
 
 -- --------------------------------------------------------
 
@@ -365,7 +338,7 @@ INSERT INTO `product` (`id`, `category_id`, `brand_id`, `title`, `alias`, `conte
 (1, 6, 1, 'Casio MRP-700-1AVEF', 'casio-mrp-700-1avef', NULL, 300, 0, '1', NULL, NULL, 'p-1.png', '0'),
 (2, 6, 1, 'Casio MQ-24-7BUL', 'casio-mq-24-7bul', '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tristique, diam in consequat iaculis, est purus iaculis mauris, imperdiet facilisis ante ligula at nulla. Quisque volutpat nulla risus, id maximus ex aliquet ut. Suspendisse potenti. Nulla varius lectus id turpis dignissim porta. Quisque magna arcu, blandit quis felis vehicula, feugiat gravida diam. Nullam nec turpis ligula. Aliquam quis blandit elit, ac sodales nisl. Aliquam eget dolor eget elit malesuada aliquet. In varius lorem lorem, semper bibendum lectus lobortis ac.</p>\n\n                                            <p>Mauris placerat vitae lorem gravida viverra. Mauris in fringilla ex. Nulla facilisi. Etiam scelerisque tincidunt quam facilisis lobortis. In malesuada pulvinar neque a consectetur. Nunc aliquam gravida purus, non malesuada sem accumsan in. Morbi vel sodales libero.</p>', 70, 80, '1', NULL, NULL, 'p-2.png', '1'),
 (3, 6, 1, 'Casio GA-1000-1AER', 'casio-ga-1000-1aer', NULL, 400, 0, '1', NULL, NULL, 'p-3.png', '1'),
-(4, 7, 2, 'Citizen JP1010-00E', 'citizen-jp1010-00e', NULL, 400, 0, '1', NULL, NULL, 'p-4.png', '1'),
+(4, 6, 2, 'Citizen JP1010-00E', 'citizen-jp1010-00e', NULL, 400, 0, '1', NULL, NULL, 'p-4.png', '1'),
 (5, 7, 2, 'Citizen BJ2111-08E', 'citizen-bj2111-08e', NULL, 500, 0, '1', NULL, NULL, 'p-5.png', '1'),
 (6, 7, 2, 'Citizen AT0696-59E', 'citizen-at0696-59e', NULL, 350, 355, '1', NULL, NULL, 'p-6.png', '1'),
 (7, 6, 3, 'Q&Q Q956J302Y', 'q-and-q-q956j302y', NULL, 20, 0, '1', NULL, NULL, 'p-7.png', '1'),

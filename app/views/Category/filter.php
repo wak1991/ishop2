@@ -1,21 +1,4 @@
-<!--start-breadcrumbs-->
-<div class="breadcrumbs">
-    <div class="container">
-        <div class="breadcrumbs-main">
-            <ol class="breadcrumb">
-                <?=$breadcrumbs;?>
-            </ol>
-        </div>
-    </div>
-</div>
-<!--end-breadcrumbs-->
-<!--prdt-starts-->
-<div class="prdt">
-    <div class="container">
-        <div class="prdt-top">
-            <div class="col-md-9 prdt-left">
-                <?php if(!empty($products)): ?>
-                    <div class="product-one">
+<?php if(!empty($products)): ?>
                         <?php $curr = \ishop\App::$app->getProperty('currency'); ?>
                         <?php foreach ($products as $product): ?>
                             <div class="col-md-4 product-left p-left">
@@ -44,18 +27,6 @@
                                 <?=$pagination;?>
                             <?php endif; ?>
                         </div>
-                    </div>
                 <?php else: ;?>
-                    <h3>Товаров нету</h3>
+                    <h3>Товаров не найдено</h3>
                 <?php endif; ?>
-            </div>
-            <div class="col-md-3 prdt-right">
-                <div class="w_sidebar">
-                    <?php new \app\widgets\filter\Filter(); ?>
-                </div>
-            </div>
-            <div class="clearfix"></div>
-        </div>
-    </div>
-</div>
-<!--product-end-->
