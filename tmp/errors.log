@@ -1,0 +1,8 @@
+[2018-05-09 00:12:04] Текст ошибки: Контроллер app\controllers\admin\MainController не найден | Файл: C:\OSPanel\domains\ishop2\vendor\ishop\core\Router.php | Строка: 41
+----------------------
+[2018-05-09 00:12:04] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\vendor\ishop\core\Router.php | Строка: 44
+----------------------
+[2018-05-09 00:31:38] Текст ошибки: Class 'R' not found | Файл: C:\OSPanel\domains\ishop2\app\views\layouts\watches.php | Строка: 282
+----------------------
+[2018-05-09 00:47:53] Текст ошибки: Class 'R' not found | Файл: C:\OSPanel\domains\ishop2\app\views\layouts\watches.php | Строка: 282
+----------------------
