@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Май 07 2018 г., 22:14
+-- Время создания: Май 12 2018 г., 20:24
 -- Версия сервера: 5.6.37
 -- Версия PHP: 5.6.31
 
@@ -178,7 +178,8 @@ INSERT INTO `category` (`id`, `title`, `alias`, `parent_id`, `keywords`, `descri
 (11, 'Электронные', 'elektronnye-11', 2, 'Электронные', 'Электронные'),
 (12, 'Механические', 'mehanicheskie-12', 2, 'Механические', 'Механические'),
 (13, 'Adriatica', 'adriatica', 11, 'Adriatica', 'Adriatica'),
-(14, 'Anne Klein', 'anne-klein', 12, 'Anne Klein', 'Anne Klein');
+(21, 'Тест', 'test', 0, '', ''),
+(22, 'Тест', 'test-22', 21, '', '');
 
 -- --------------------------------------------------------
 
@@ -272,9 +273,11 @@ CREATE TABLE `order` (
 --
 
 INSERT INTO `order` (`id`, `user_id`, `status`, `date`, `update_at`, `currency`, `note`) VALUES
-(4, 6, '0', '2018-05-06 14:50:02', NULL, 'UAH', 'Тест'),
-(5, 6, '0', '2018-05-06 14:52:36', NULL, 'UAH', 'Тест'),
-(6, 6, '0', '2018-05-06 14:56:54', NULL, 'UAH', '123');
+(6, 6, '1', '2018-05-06 14:56:54', '2018-05-12 10:50:15', 'UAH', '123'),
+(7, 6, '0', '2018-05-11 18:40:53', NULL, 'USD', ''),
+(8, 6, '0', '2018-05-11 18:41:11', NULL, 'USD', ''),
+(9, 6, '0', '2018-05-11 18:41:25', NULL, 'USD', ''),
+(10, 6, '0', '2018-05-11 18:42:01', NULL, 'USD', '6546465465464654 6д4нггдшд');
 
 -- --------------------------------------------------------
 
@@ -296,17 +299,12 @@ CREATE TABLE `order_product` (
 --
 
 INSERT INTO `order_product` (`id`, `order_id`, `product_id`, `qty`, `title`, `price`) VALUES
-(6, 4, 2, 1, 'Casio MQ-24-7BUL', 1806),
-(7, 4, 3, 1, 'Casio GA-1000-1AER', 10320),
-(8, 4, 4, 1, 'Citizen JP1010-00E', 10320),
-(9, 4, 5, 15, 'Citizen BJ2111-08E', 12900),
-(10, 4, 2, 2, 'Casio MQ-24-7BUL (Red)', 1806),
-(11, 5, 2, 1, 'Casio MQ-24-7BUL', 1806),
-(12, 5, 3, 1, 'Casio GA-1000-1AER', 10320),
-(13, 5, 4, 1, 'Citizen JP1010-00E', 10320),
-(14, 5, 5, 15, 'Citizen BJ2111-08E', 12900),
-(15, 5, 2, 2, 'Casio MQ-24-7BUL (Red)', 1806),
-(16, 6, 1, 1, 'Casio MRP-700-1AVEF', 7740);
+(16, 6, 1, 1, 'Casio MRP-700-1AVEF', 7740),
+(17, 7, 2, 1, 'Casio MQ-24-7BUL', 70),
+(18, 8, 11, 1, 'Тестовый товар', 10),
+(19, 9, 5, 1, 'Citizen BJ2111-08E', 500),
+(20, 10, 3, 1, 'Casio GA-1000-1AER', 400),
+(21, 10, 1, 5, 'Casio MRP-700-1AVEF (Dark Black)', 305);
 
 -- --------------------------------------------------------
 
@@ -414,7 +412,8 @@ CREATE TABLE `user` (
 INSERT INTO `user` (`id`, `login`, `password`, `email`, `name`, `address`, `role`) VALUES
 (4, 'user1', '$2y$10$9ASS4qo17Thg1vivzdUEHOzwsrw3ZUDPWV4e1eEALuzexIpEtXsAy', '2@mail.ru', 'Дима', 'Пинск', 'user'),
 (5, 'user', '$2y$10$YXHzm5uwtu.9PgGnS1zX2.jUUelD14Sb.kt/8Mc43qcSlo9ZPY2zW', '1@mail.ru', 'Артём Копытник', 'Костюшко, 58, 75', 'user'),
-(6, 'wak', '$2y$10$QUqaGN56NyoNrft3e897Ee.i94d/iDUiV0ZfkQ84ZNrwBz5D6EIaa', 'wak131991@gmail.com', 'Артём Копытник', 'Костюшко, 58, 75', 'user');
+(6, 'wak', '$2y$10$QUqaGN56NyoNrft3e897Ee.i94d/iDUiV0ZfkQ84ZNrwBz5D6EIaa', 'wak131991@gmail.com', 'Артём Копытник', 'Костюшко, 58, 75', 'user'),
+(7, 'admin', '$2y$10$jUb/Gq91bjzQwzLH9d5YV.Dvm5/6HNowvni4k0VgFeoo3l22jqfcu', 'admin@ishop.ru', 'Админ', 'ADMIN', 'admin');
 
 --
 -- Индексы сохранённых таблиц
@@ -531,7 +530,7 @@ ALTER TABLE `brand`
 -- AUTO_INCREMENT для таблицы `category`
 --
 ALTER TABLE `category`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
 --
 -- AUTO_INCREMENT для таблицы `currency`
 --
@@ -551,12 +550,12 @@ ALTER TABLE `modification`
 -- AUTO_INCREMENT для таблицы `order`
 --
 ALTER TABLE `order`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 --
 -- AUTO_INCREMENT для таблицы `order_product`
 --
 ALTER TABLE `order_product`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
 --
 -- AUTO_INCREMENT для таблицы `product`
 --
@@ -566,7 +565,7 @@ ALTER TABLE `product`
 -- AUTO_INCREMENT для таблицы `user`
 --
 ALTER TABLE `user`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 --
 -- Ограничения внешнего ключа сохраненных таблиц
 --
