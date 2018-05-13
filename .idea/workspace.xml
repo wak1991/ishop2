@@ -2,33 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ece159be-0892-4e33-bd11-467a42d38707" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/controllers/admin/CategoryController.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/controllers/admin/OrderController.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/controllers/admin/UserController.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/views/admin/Category/add.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/views/admin/Category/index.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/views/admin/Order/index.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/views/admin/Order/view.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/views/admin/User/login-admin.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/views/layouts/login.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/adminlte/my.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/adminlte/my.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/menu/category_admin.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/menu/select.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/controllers/admin/CacheController.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/controllers/admin/ProductController.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/models/admin/Model.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/models/admin/User.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/views/admin/Cache/index.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/views/admin/Category/edit.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/views/admin/Product/index.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/views/admin/User/add.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/views/admin/User/edit.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/views/admin/User/index.php" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/admin/AppController.php" afterPath="$PROJECT_DIR$/app/controllers/admin/AppController.php" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/admin/MainController.php" afterPath="$PROJECT_DIR$/app/controllers/admin/MainController.php" />
-      <change beforePath="$PROJECT_DIR$/app/models/AppModel.php" afterPath="$PROJECT_DIR$/app/models/AppModel.php" />
-      <change beforePath="$PROJECT_DIR$/app/models/Category.php" afterPath="$PROJECT_DIR$/app/models/Category.php" />
-      <change beforePath="$PROJECT_DIR$/app/views/admin/Main/index.php" afterPath="$PROJECT_DIR$/app/views/admin/Main/index.php" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/admin.php" afterPath="$PROJECT_DIR$/app/views/layouts/admin.php" />
-      <change beforePath="$PROJECT_DIR$/app/widgets/menu/Menu.php" afterPath="$PROJECT_DIR$/app/widgets/menu/Menu.php" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/0832c1202da8d382318e329a7c133ea0.txt" afterPath="$PROJECT_DIR$/tmp/cache/0832c1202da8d382318e329a7c133ea0.txt" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/9297fd88a237b4c249515d1022b29f09.txt" afterPath="$PROJECT_DIR$/tmp/cache/9297fd88a237b4c249515d1022b29f09.txt" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/c799f92d1280fb7a5aefeba08b6fae16.txt" afterPath="$PROJECT_DIR$/tmp/cache/c799f92d1280fb7a5aefeba08b6fae16.txt" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/d8f64461fa85104a39f2162f647f08aa.txt" afterPath="$PROJECT_DIR$/tmp/cache/d8f64461fa85104a39f2162f647f08aa.txt" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/admin/CategoryController.php" afterPath="$PROJECT_DIR$/app/controllers/admin/CategoryController.php" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/admin/UserController.php" afterPath="$PROJECT_DIR$/app/controllers/admin/UserController.php" />
+      <change beforePath="$PROJECT_DIR$/app/models/User.php" afterPath="$PROJECT_DIR$/app/models/User.php" />
+      <change beforePath="$PROJECT_DIR$/app/views/admin/Category/add.php" afterPath="$PROJECT_DIR$/app/views/admin/Category/add.php" />
+      <change beforePath="$PROJECT_DIR$/public/menu/select.php" afterPath="$PROJECT_DIR$/public/menu/select.php" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/0832c1202da8d382318e329a7c133ea0.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/9297fd88a237b4c249515d1022b29f09.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/c799f92d1280fb7a5aefeba08b6fae16.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/d8f64461fa85104a39f2162f647f08aa.txt" afterPath="" />
       <change beforePath="$PROJECT_DIR$/tmp/errors.log" afterPath="$PROJECT_DIR$/tmp/errors.log" />
-      <change beforePath="$PROJECT_DIR$/vendor/ishop/core/libs/functions.php" afterPath="$PROJECT_DIR$/vendor/ishop/core/libs/functions.php" />
+      <change beforePath="$PROJECT_DIR$/vendor/ishop/core/base/Model.php" afterPath="$PROJECT_DIR$/vendor/ishop/core/base/Model.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,7 +36,7 @@
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -64,12 +59,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/vendor/ishop/core/base/Model.php" />
-        <option value="$PROJECT_DIR$/app/views/User/signup.php" />
-        <option value="$PROJECT_DIR$/app/views/User/login.php" />
-        <option value="$PROJECT_DIR$/app/controllers/UserController.php" />
         <option value="$PROJECT_DIR$/app/views/Cart/view.php" />
-        <option value="$PROJECT_DIR$/app/models/User.php" />
         <option value="$PROJECT_DIR$/app/controllers/CartController.php" />
         <option value="$PROJECT_DIR$/app/views/mail/mail_order.php" />
         <option value="$PROJECT_DIR$/config/params.php" />
@@ -90,7 +80,6 @@
         <option value="$PROJECT_DIR$/app/views/admin/Main/index.php" />
         <option value="$PROJECT_DIR$/app/controllers/admin/AppController.php" />
         <option value="$PROJECT_DIR$/vendor/ishop/core/libs/functions.php" />
-        <option value="$PROJECT_DIR$/app/controllers/admin/UserController.php" />
         <option value="$PROJECT_DIR$/app/views/admin/Order/view.php" />
         <option value="$PROJECT_DIR$/app/controllers/admin/OrderController.php" />
         <option value="$PROJECT_DIR$/app/views/admin/Order/index.php" />
@@ -101,12 +90,26 @@
         <option value="$PROJECT_DIR$/public/adminlte/my.css" />
         <option value="$PROJECT_DIR$/public/adminlte/my.js" />
         <option value="$PROJECT_DIR$/app/views/layouts/admin.php" />
-        <option value="$PROJECT_DIR$/public/menu/select.php" />
         <option value="D:/WAK/Программирование/Уроки/WebForMyself - PHP-Мастер. От теории до собственной CMS интернет-магазина/videokurs/part3/10/AppModel.php" />
-        <option value="$PROJECT_DIR$/app/views/admin/Category/add.php" />
-        <option value="$PROJECT_DIR$/app/controllers/admin/CategoryController.php" />
         <option value="$PROJECT_DIR$/app/models/AppModel.php" />
         <option value="$PROJECT_DIR$/app/models/Category.php" />
+        <option value="$PROJECT_DIR$/app/views/admin/Category/add.php" />
+        <option value="$PROJECT_DIR$/app/views/admin/Category/edit.php" />
+        <option value="$PROJECT_DIR$/public/menu/select.php" />
+        <option value="$PROJECT_DIR$/vendor/ishop/core/base/Model.php" />
+        <option value="$PROJECT_DIR$/app/controllers/admin/CategoryController.php" />
+        <option value="$PROJECT_DIR$/app/views/admin/Cache/index.php" />
+        <option value="$PROJECT_DIR$/app/controllers/admin/CacheController.php" />
+        <option value="$PROJECT_DIR$/app/views/admin/User/index.php" />
+        <option value="$PROJECT_DIR$/app/views/admin/User/edit.php" />
+        <option value="$PROJECT_DIR$/app/models/User.php" />
+        <option value="$PROJECT_DIR$/app/models/admin/User.php" />
+        <option value="$PROJECT_DIR$/app/controllers/admin/UserController.php" />
+        <option value="$PROJECT_DIR$/app/views/admin/User/add.php" />
+        <option value="$PROJECT_DIR$/app/models/admin/Product.php" />
+        <option value="$PROJECT_DIR$/app/models/admin/Model.php" />
+        <option value="$PROJECT_DIR$/app/views/admin/Product/index.php" />
+        <option value="$PROJECT_DIR$/app/controllers/admin/ProductController.php" />
       </list>
     </option>
   </component>
@@ -126,10 +129,10 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="958" />
-    <option name="y" value="31" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
+    <option name="x" value="153" />
+    <option name="y" value="81" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -160,8 +163,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -202,16 +205,17 @@
       <workItem from="1525971797906" duration="8195000" />
       <workItem from="1526063810260" duration="4832000" />
       <workItem from="1526118875433" duration="16622000" />
+      <workItem from="1526203067513" duration="14539000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70522000" />
+    <option name="totallyTimeSpent" value="85061000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1234375" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17349927" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32629356" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -239,92 +243,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/ishop/core/Cache.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/WAK/Программирование/Уроки/WebForMyself - PHP-Мастер. От теории до собственной CMS интернет-магазина/videokurs/part2/36/style.css" />
-    <entry file="file://$PROJECT_DIR$/public/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="683">
-          <caret line="3210" column="1" lean-forward="true" selection-start-line="3210" selection-start-column="1" selection-end-line="3210" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="24" column="53" lean-forward="false" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/Category/view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="652">
-          <caret line="53" column="62" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="60" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/CategoryController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="564">
-          <caret line="38" column="156" lean-forward="false" selection-start-line="38" selection-start-column="156" selection-end-line="38" selection-end-column="156" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/ishop/core/libs/Pagination.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="669">
-          <caret line="90" column="30" lean-forward="false" selection-start-line="90" selection-start-column="30" selection-end-line="90" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/Category/filter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="30" column="42" lean-forward="false" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/widgets/filter/Filter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="734">
-          <caret line="91" column="28" lean-forward="false" selection-start-line="91" selection-start-column="28" selection-end-line="91" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/widgets/filter/filter_tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="14" column="93" lean-forward="false" selection-start-line="14" selection-start-column="93" selection-end-line="14" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/errors.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/default.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/WAK/Программирование/Уроки/WebForMyself - PHP-Мастер. От теории до собственной CMS интернет-магазина/videokurs/part3/1/admin.php" />
-    <entry file="file://D:/WAK/Программирование/Уроки/WebForMyself - PHP-Мастер. От теории до собственной CMS интернет-магазина/videokurs/part3/1/index.php" />
-    <entry file="file://D:/WAK/Программирование/Уроки/WebForMyself - PHP-Мастер. От теории до собственной CMS интернет-магазина/videokurs/part3/2/login.php" />
     <entry file="file://D:/WAK/Программирование/Уроки/WebForMyself - PHP-Мастер. От теории до собственной CMS интернет-магазина/videokurs/part3/2/login-admin.php" />
     <entry file="file://$PROJECT_DIR$/app/views/layouts/login.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -345,7 +268,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -366,14 +288,6 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Desktop/OrderController.php" />
-    <entry file="file://$PROJECT_DIR$/app/controllers/admin/UserController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="37" lean-forward="false" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/admin/AppController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
@@ -388,75 +302,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="42" column="66" lean-forward="false" selection-start-line="42" selection-start-column="66" selection-end-line="42" selection-end-column="66" />
-          <folding>
-            <marker date="1526121498378" expanded="true" signature="1201:1202" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/admin/OrderController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="853">
-          <caret line="63" column="32" lean-forward="false" selection-start-line="63" selection-start-column="32" selection-end-line="63" selection-end-column="32" />
-          <folding>
-            <marker date="1526121837845" expanded="true" signature="415:788" ph="SELECT `orde... " />
-            <marker date="1526121837845" expanded="true" signature="415:789" ph="SELECT `orde... " />
-            <marker date="1526121837845" expanded="true" signature="415:796" ph="SELECT `orde... order" />
-            <marker date="1526121837845" expanded="true" signature="415:797" ph="SELECT `orde... " />
-            <marker date="1526121837845" expanded="true" signature="1030:1329" ph="SELECT `orde... order" />
-            <marker date="1526121837845" expanded="true" signature="1030:1330" ph="SELECT `orde... order" />
-            <marker date="1526121837845" expanded="true" signature="1030:1344" ph="SELECT `orde... order" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/admin/Order/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="683">
-          <caret line="41" column="242" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="59" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/WAK/Программирование/Уроки/WebForMyself - PHP-Мастер. От теории до собственной CMS интернет-магазина/videokurs/part3/7/category_admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="18" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/WAK/Программирование/Уроки/WebForMyself - PHP-Мастер. От теории до собственной CMS интернет-магазина/videokurs/part3/7/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="30" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/WAK/Программирование/Уроки/WebForMyself - PHP-Мастер. От теории до собственной CMS интернет-магазина/videokurs/part3/7/CategoryController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/WAK/Программирование/Уроки/WebForMyself - PHP-Мастер. От теории до собственной CMS интернет-магазина/videokurs/part3/7/Menu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="80" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="94" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://D:/WAK/Программирование/Уроки/WebForMyself - PHP-Мастер. От теории до собственной CMS интернет-магазина/videokurs/part3/7/category_admin.php" />
+    <entry file="file://D:/WAK/Программирование/Уроки/WebForMyself - PHP-Мастер. От теории до собственной CMS интернет-магазина/videokurs/part3/7/index.php" />
+    <entry file="file://D:/WAK/Программирование/Уроки/WebForMyself - PHP-Мастер. От теории до собственной CMS интернет-магазина/videokurs/part3/7/CategoryController.php" />
+    <entry file="file://D:/WAK/Программирование/Уроки/WebForMyself - PHP-Мастер. От теории до собственной CMS интернет-магазина/videokurs/part3/7/Menu.php" />
     <entry file="file://$PROJECT_DIR$/app/widgets/menu/Menu.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="785">
           <caret line="94" column="1" lean-forward="false" selection-start-line="94" selection-start-column="1" selection-end-line="94" selection-end-column="1" />
           <folding>
             <element signature="e#36#50#0#PHP" expanded="false" />
-            <marker date="1526134433523" expanded="true" signature="1071:1085" ph="SELECT * FRO... $" />
           </folding>
         </state>
       </provider>
@@ -469,14 +327,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/WAK/Программирование/Уроки/WebForMyself - PHP-Мастер. От теории до собственной CMS интернет-магазина/videokurs/part3/7/my.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="33" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://D:/WAK/Программирование/Уроки/WebForMyself - PHP-Мастер. От теории до собственной CMS интернет-магазина/videokurs/part3/7/my.css" />
     <entry file="file://$PROJECT_DIR$/public/adminlte/my.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
@@ -489,7 +340,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -497,7 +347,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="218" column="0" lean-forward="false" selection-start-line="218" selection-start-column="0" selection-end-line="218" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -505,7 +354,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="598">
           <caret line="583" column="14" lean-forward="false" selection-start-line="583" selection-start-column="14" selection-end-line="583" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -513,15 +361,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="22" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/menu/select.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="71" lean-forward="false" selection-start-line="2" selection-start-column="71" selection-end-line="2" selection-end-column="71" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -529,74 +368,210 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/WAK/Программирование/Уроки/WebForMyself - PHP-Мастер. От теории до собственной CMS интернет-магазина/videokurs/part3/10/CategoryController.php">
+    <entry file="file://D:/WAK/Программирование/Уроки/WebForMyself - PHP-Мастер. От теории до собственной CMS интернет-магазина/videokurs/part3/10/CategoryController.php" />
+    <entry file="file://D:/WAK/Программирование/Уроки/WebForMyself - PHP-Мастер. От теории до собственной CMS интернет-магазина/videokurs/part3/10/AppModel.php" />
+    <entry file="file://D:/WAK/Программирование/Уроки/WebForMyself - PHP-Мастер. От теории до собственной CMS интернет-магазина/videokurs/part3/10/Category.php" />
+    <entry file="file://D:/WAK/Программирование/Уроки/WebForMyself - PHP-Мастер. От теории до собственной CMS интернет-магазина/videokurs/part3/10/add.php" />
+    <entry file="file://$PROJECT_DIR$/app/models/Category.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="52" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="55" selection-end-column="1" />
-          <folding>
-            <element signature="e#41#65#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/WAK/Программирование/Уроки/WebForMyself - PHP-Мастер. От теории до собственной CMS интернет-магазина/videokurs/part3/10/AppModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="35" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="89" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/WAK/Программирование/Уроки/WebForMyself - PHP-Мастер. От теории до собственной CMS интернет-магазина/videokurs/part3/10/Category.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="26" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="34" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/WAK/Программирование/Уроки/WebForMyself - PHP-Мастер. От теории до собственной CMS интернет-магазина/videokurs/part3/10/add.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="21" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="59" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/admin/CategoryController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-          <folding>
-            <element signature="e#41#65#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/AppModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-158">
-          <caret line="37" column="4" lean-forward="false" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
+        <state relative-caret-position="408">
+          <caret line="24" column="4" lean-forward="false" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/admin/Category/add.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
+        <state relative-caret-position="335">
+          <caret line="45" column="127" lean-forward="false" selection-start-line="45" selection-start-column="127" selection-end-line="45" selection-end-column="127" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/menu/select.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="140" lean-forward="false" selection-start-line="1" selection-start-column="140" selection-end-line="1" selection-end-column="140" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/admin/CategoryController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="78" column="23" lean-forward="false" selection-start-line="78" selection-start-column="23" selection-end-line="78" selection-end-column="23" />
+          <folding>
+            <element signature="e#41#65#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/AppModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/Category/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="50" column="79" lean-forward="false" selection-start-line="50" selection-start-column="79" selection-end-line="50" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/admin/CacheController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="44" lean-forward="false" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/Cache/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="40" column="26" lean-forward="false" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/User/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="45" column="61" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="56" selection-end-column="18" />
+          <folding>
+            <marker date="1526215200786" expanded="true" signature="1867:2132" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/admin/OrderController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="21" selection-end-column="87" />
+          <folding>
+            <marker date="1526202900308" expanded="true" signature="415:796" ph="SELECT `orde... order" />
+            <marker date="1526202900308" expanded="true" signature="1030:1330" ph="SELECT `orde... order" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/User/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="60" column="32" lean-forward="false" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="32" />
+          <folding>
+            <element signature="e#3495#5290#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/ishop/core/base/Model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="59" column="20" lean-forward="false" selection-start-line="59" selection-start-column="20" selection-end-line="59" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="6" lean-forward="true" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/admin/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/WAK/Программирование/Уроки/WebForMyself - PHP-Мастер. От теории до собственной CMS интернет-магазина/videokurs/part3/15/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-150">
+          <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/admin/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="25" column="45" lean-forward="false" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+          <folding>
+            <element signature="e#42#62#0#PHP" expanded="false" />
+            <marker date="1526223789564" expanded="true" signature="1560:1893" ph="SELECT `orde... order" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/WAK/Программирование/Уроки/WebForMyself - PHP-Мастер. От теории до собственной CMS интернет-магазина/videokurs/part3/16/add.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="59" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/User/add.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
           <caret line="59" column="18" lean-forward="false" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/Category.php">
+    <entry file="file://$PROJECT_DIR$/app/models/admin/Product.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="4" lean-forward="false" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/Order/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="18" column="20" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="59" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/admin/ProductController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="158" lean-forward="false" selection-start-line="17" selection-start-column="158" selection-end-line="17" selection-end-column="158" />
+          <folding>
+            <marker date="1526226637818" expanded="true" signature="421:554" ph="SELECT produ... product" />
+            <marker date="1526226637818" expanded="true" signature="421:555" ph="SELECT produ... product" />
+            <marker date="1526226637818" expanded="true" signature="421:562" ph="SELECT produ... product" />
+            <marker date="1526226637818" expanded="true" signature="421:563" ph="SELECT produ... product" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/Product/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="45" column="58" lean-forward="false" selection-start-line="45" selection-start-column="58" selection-end-line="45" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/admin/Model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
           <folding />
         </state>
       </provider>

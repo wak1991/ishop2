@@ -1,4 +1,4 @@
-a:2:{s:4:"data";s:1256:"<li>
+a:2:{s:4:"data";s:1255:"<li>
     <a href="category/men">Men</a>
             <ul>
             <li>
@@ -46,13 +46,13 @@ a:2:{s:4:"data";s:1256:"<li>
     </li>
 <li>
     <a href="category/kids">Kids</a>
-    </li>
-<li>
-    <a href="category/test">Тест</a>
             <ul>
             <li>
-    <a href="category/test-22">Тест</a>
+    <a href="category/test2">Тест2</a>
     </li>
         </ul>
     </li>
-";s:8:"end_time";i:1526149512;}
+<li>
+    <a href="category/test">Тест</a>
+    </li>
+";s:8:"end_time";i:1526224484;}

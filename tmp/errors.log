@@ -118,3 +118,11 @@ GROUP B' at line 2 | Файл: C:\OSPanel\domains\ishop2\vendor\gabordemooij\red
 ----------------------
 [2018-05-12 20:21:05] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\vendor\ishop\core\Router.php | Строка: 44
 ----------------------
+[2018-05-13 12:16:53] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\vendor\ishop\core\Router.php | Строка: 44
+----------------------
+[2018-05-13 16:12:29] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\vendor\ishop\core\Router.php | Строка: 44
+----------------------
+[2018-05-13 17:14:09] Текст ошибки: Метод app\controllers\admin\UserController::addAction не найден | Файл: C:\OSPanel\domains\ishop2\vendor\ishop\core\Router.php | Строка: 38
+----------------------
+[2018-05-13 18:01:16] Текст ошибки: Метод app\controllers\admin\UserController::addAction не найден | Файл: C:\OSPanel\domains\ishop2\vendor\ishop\core\Router.php | Строка: 38
+----------------------
