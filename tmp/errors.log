@@ -126,3 +126,23 @@ GROUP B' at line 2 | Файл: C:\OSPanel\domains\ishop2\vendor\gabordemooij\red
 ----------------------
 [2018-05-13 18:01:16] Текст ошибки: Метод app\controllers\admin\UserController::addAction не найден | Файл: C:\OSPanel\domains\ishop2\vendor\ishop\core\Router.php | Строка: 38
 ----------------------
+[2018-05-15 20:24:06] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\vendor\ishop\core\Router.php | Строка: 44
+----------------------
+[2018-05-15 20:25:26] Текст ошибки: Метод app\controllers\admin\ProductController::addAction не найден | Файл: C:\OSPanel\domains\ishop2\vendor\ishop\core\Router.php | Строка: 38
+----------------------
+[2018-05-15 20:25:31] Текст ошибки: Метод app\controllers\admin\ProductController::editAction не найден | Файл: C:\OSPanel\domains\ishop2\vendor\ishop\core\Router.php | Строка: 38
+----------------------
+[2018-05-15 21:19:40] Текст ошибки: Метод app\controllers\ProductController::indexAction не найден | Файл: C:\OSPanel\domains\ishop2\vendor\ishop\core\Router.php | Строка: 38
+----------------------
+[2018-05-15 23:06:54] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product_id = 38' at line 1 | Файл: C:\OSPanel\domains\ishop2\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 188
+----------------------
+[2018-05-15 23:06:54] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\vendor\ishop\core\Router.php | Строка: 44
+----------------------
+[2018-05-15 23:10:10] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product_id = 39' at line 1 | Файл: C:\OSPanel\domains\ishop2\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 188
+----------------------
+[2018-05-15 23:11:09] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product_id = 40' at line 1 | Файл: C:\OSPanel\domains\ishop2\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 188
+----------------------
+[2018-05-15 23:11:41] Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ishop2.atrribute_product' doesn't exist | Файл: C:\OSPanel\domains\ishop2\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 188
+----------------------
+[2018-05-15 23:11:41] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\vendor\ishop\core\Router.php | Строка: 44
+----------------------

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Май 12 2018 г., 20:24
+-- Время создания: Май 15 2018 г., 23:13
 -- Версия сервера: 5.6.37
 -- Версия PHP: 5.6.31
 
@@ -65,6 +65,7 @@ INSERT INTO `attribute_product` (`attr_id`, `product_id`) VALUES
 (1, 1),
 (1, 2),
 (1, 3),
+(1, 42),
 (2, 4),
 (5, 1),
 (5, 2),
@@ -363,7 +364,15 @@ INSERT INTO `product` (`id`, `category_id`, `brand_id`, `title`, `alias`, `conte
 (30, 7, 2, 'Часы 17', 'chasy-17', NULL, 125, 0, '1', NULL, NULL, 'no_image.jpg', '0'),
 (31, 7, 2, 'Часы 18', 'chasy-18', NULL, 125, 0, '1', NULL, NULL, 'no_image.jpg', '0'),
 (32, 7, 2, 'Часы 19', 'chasy-19', NULL, 125, 0, '1', NULL, NULL, 'no_image.jpg', '0'),
-(33, 7, 2, 'Часы 20', 'chasy-20', NULL, 125, 0, '1', NULL, NULL, 'no_image.jpg', '0');
+(33, 7, 2, 'Часы 20', 'chasy-20', NULL, 125, 0, '1', NULL, NULL, 'no_image.jpg', '0'),
+(35, 22, 0, 'Новый товар 1', 'novyy-tovar-1', '<p>sdfdsffds sdf<strong>dfs fs d</strong></p>\r\n', 123, 234, '1', 'hds', 'sdh', 'no_image.jpg', '1'),
+(36, 22, 0, 'Новый товар 1', 'novyy-tovar-1-36', '', 123, 0, '1', '', '', 'no_image.jpg', '0'),
+(37, 22, 0, 'Новый товар 2', 'novyy-tovar-2', '<p><img alt=\"\" src=\"/public/upload/images/1/abt-1.jpg\" style=\"height:250px; width:350px\" />gxnnxghbxxbg</p>\r\n', 111, 0, '1', '', '', 'no_image.jpg', '0'),
+(38, 22, 0, 'Новый товар 5', 'novyy-tovar-5', '', 123, 0, '1', '', '', 'no_image.jpg', '0'),
+(39, 22, 0, 'Новый товар 7', 'novyy-tovar-7', '', 1, 0, '1', '', '', 'no_image.jpg', '0'),
+(40, 22, 0, 'Новый товар 7', 'novyy-tovar-7-40', '', 1, 0, '1', '', '', 'no_image.jpg', '0'),
+(41, 22, 0, 'Новый товар 8', 'novyy-tovar-8', '', 4444, 0, '1', '', '', 'no_image.jpg', '0'),
+(42, 22, 0, 'Новый товар 111', 'novyy-tovar-111', '', 54, 0, '1', '', '', 'no_image.jpg', '0');
 
 -- --------------------------------------------------------
 
@@ -560,7 +569,7 @@ ALTER TABLE `order_product`
 -- AUTO_INCREMENT для таблицы `product`
 --
 ALTER TABLE `product`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=34;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=43;
 --
 -- AUTO_INCREMENT для таблицы `user`
 --
