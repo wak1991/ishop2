@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Май 15 2018 г., 23:13
+-- Время создания: Май 18 2018 г., 00:13
 -- Версия сервера: 5.6.37
 -- Версия PHP: 5.6.31
 
@@ -66,23 +66,28 @@ INSERT INTO `attribute_product` (`attr_id`, `product_id`) VALUES
 (1, 2),
 (1, 3),
 (1, 42),
+(1, 43),
 (2, 4),
 (5, 1),
 (5, 2),
 (5, 3),
 (5, 4),
+(5, 43),
 (8, 1),
 (8, 2),
 (8, 3),
 (8, 4),
+(9, 43),
 (12, 1),
 (12, 2),
 (12, 3),
 (12, 4),
+(14, 43),
 (18, 1),
 (18, 2),
 (18, 4),
-(19, 3);
+(19, 3),
+(19, 43);
 
 -- --------------------------------------------------------
 
@@ -226,7 +231,9 @@ CREATE TABLE `gallery` (
 INSERT INTO `gallery` (`id`, `product_id`, `img`) VALUES
 (1, 2, 's-1.jpg'),
 (2, 2, 's-2.jpg'),
-(3, 2, 's-3.jpg');
+(3, 2, 's-3.jpg'),
+(8, 44, '3458ecb11fff80ee2a644a3c1ff79179.jpg'),
+(9, 44, 'a6c908a6107dbbd53ecefbb9a15fe2a5.jpg');
 
 -- --------------------------------------------------------
 
@@ -372,7 +379,9 @@ INSERT INTO `product` (`id`, `category_id`, `brand_id`, `title`, `alias`, `conte
 (39, 22, 0, 'Новый товар 7', 'novyy-tovar-7', '', 1, 0, '1', '', '', 'no_image.jpg', '0'),
 (40, 22, 0, 'Новый товар 7', 'novyy-tovar-7-40', '', 1, 0, '1', '', '', 'no_image.jpg', '0'),
 (41, 22, 0, 'Новый товар 8', 'novyy-tovar-8', '', 4444, 0, '1', '', '', 'no_image.jpg', '0'),
-(42, 22, 0, 'Новый товар 111', 'novyy-tovar-111', '', 54, 0, '1', '', '', 'no_image.jpg', '0');
+(42, 22, 0, 'Новый товар 111', 'novyy-tovar-111', '', 54, 0, '1', '', '', 'no_image.jpg', '0'),
+(43, 22, 0, 'Новый товар 71', 'novyy-tovar-71', '', 123, 0, '1', '', '', 'no_image.jpg', '0'),
+(44, 22, 0, 'Новый товар 111', 'novyy-tovar-111-44', '', 123, 0, '1', '', '', 'ca18b1ece0356fcf21e944b8bd2efe70.png', '0');
 
 -- --------------------------------------------------------
 
@@ -396,7 +405,9 @@ INSERT INTO `related_product` (`product_id`, `related_id`) VALUES
 (2, 10),
 (5, 1),
 (5, 7),
-(5, 8);
+(5, 8),
+(43, 1),
+(43, 2);
 
 -- --------------------------------------------------------
 
@@ -549,7 +560,7 @@ ALTER TABLE `currency`
 -- AUTO_INCREMENT для таблицы `gallery`
 --
 ALTER TABLE `gallery`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 --
 -- AUTO_INCREMENT для таблицы `modification`
 --
@@ -569,7 +580,7 @@ ALTER TABLE `order_product`
 -- AUTO_INCREMENT для таблицы `product`
 --
 ALTER TABLE `product`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=43;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=45;
 --
 -- AUTO_INCREMENT для таблицы `user`
 --
