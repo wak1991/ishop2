@@ -37,7 +37,7 @@ class Product extends AppModel
         $related_product = \R::getCol('SELECT related_id FROM related_product WHERE product_id = ?', [$id]);
         // если менеджер убрал связанные товары, тогда удаляем их
         if (empty($data['related']) && !empty($related_product)){
-            \R::exec("DELECTE FROM related_product WHERE product_id =?", [$id]);
+            \R::exec("DELETE FROM related_product WHERE product_id =?", [$id]);
             return;
         }
         // если связанные товары добавляются
@@ -55,7 +55,7 @@ class Product extends AppModel
         if (!empty($data['related'])){
             $result = array_diff($related_product, $data['related']);
             if(!empty($result) || count($related_product) != count($data['related'])){
-                \R::exec("DELECTE FROM related_product WHERE product_id =?", [$id]);
+                \R::exec("DELETE FROM related_product WHERE product_id =?", [$id]);
                 $sql_part = '';
                 foreach ($data['related'] as $v){
                     $sql_part .= "($id, $v),";
@@ -71,7 +71,7 @@ class Product extends AppModel
         $filter = \R::getCol('SELECT attr_id FROM attribute_product WHERE product_id = ?', [$id]);
         // если менеджер убрал фильтры, тогда удаляем их
         if (empty($data['attrs']) && !empty($filter)){
-            \R::exec("DELECTE FROM attribute_product WHERE product_id =?", [$id]);
+            \R::exec("DELETE FROM attribute_product WHERE product_id = ?", [$id]);
             return;
         }
         // если фильтры добавляются
@@ -87,8 +87,8 @@ class Product extends AppModel
         // если изменились фильтры - удалим и запишем новые
         if (!empty($data['attrs'])){
             $result = array_diff($filter, $data['attrs']);
-            if(!$result){
-                \R::exec("DELECTE FROM attribute_product WHERE product_id =?", [$id]);
+            if(!$result || count($filter) != count($data['attrs'])){
+                \R::exec("DELETE FROM attribute_product WHERE product_id = ?", [$id]);
                 $sql_part = '';
                 foreach ($data['attrs'] as $v){
                     $sql_part .= "($v, $id),";

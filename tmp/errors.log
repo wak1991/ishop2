@@ -228,3 +228,73 @@ GROUP B' at line 2 | Файл: C:\OSPanel\domains\ishop2\vendor\gabordemooij\red
 ----------------------
 [2018-05-17 22:25:02] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\vendor\ishop\core\Router.php | Строка: 44
 ----------------------
+[2018-05-19 13:43:43] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\vendor\ishop\core\Router.php | Строка: 44
+----------------------
+[2018-05-19 15:24:01] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DELECTE FROM attribute_product WHERE product_id =1' at line 1 | Файл: C:\OSPanel\domains\ishop2\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 188
+----------------------
+[2018-05-19 15:24:01] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\vendor\ishop\core\Router.php | Строка: 44
+----------------------
+[2018-05-19 15:25:21] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DELECTE FROM attribute_product WHERE product_id =1' at line 1 | Файл: C:\OSPanel\domains\ishop2\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 188
+----------------------
+[2018-05-19 15:25:36] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DELECTE FROM attribute_product WHERE product_id =1' at line 1 | Файл: C:\OSPanel\domains\ishop2\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 188
+----------------------
+[2018-05-19 15:25:36] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\vendor\ishop\core\Router.php | Строка: 44
+----------------------
+[2018-05-19 15:25:50] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DELECTE FROM attribute_product WHERE product_id =1' at line 1 | Файл: C:\OSPanel\domains\ishop2\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 188
+----------------------
+[2018-05-19 15:27:04] Текст ошибки: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'alias' | Файл: C:\OSPanel\domains\ishop2\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 188
+----------------------
+[2018-05-19 15:27:16] Текст ошибки: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'alias' | Файл: C:\OSPanel\domains\ishop2\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 188
+----------------------
+[2018-05-19 15:28:38] Текст ошибки: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'alias' | Файл: C:\OSPanel\domains\ishop2\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 188
+----------------------
+[2018-05-19 15:30:39] Текст ошибки: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'alias' | Файл: C:\OSPanel\domains\ishop2\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 188
+----------------------
+[2018-05-19 15:32:36] Текст ошибки: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'alias' | Файл: C:\OSPanel\domains\ishop2\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 188
+----------------------
+[2018-05-19 15:32:36] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\vendor\ishop\core\Router.php | Строка: 44
+----------------------
+[2018-05-19 15:32:46] Текст ошибки: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'alias' | Файл: C:\OSPanel\domains\ishop2\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 188
+----------------------
+[2018-05-19 15:33:23] Текст ошибки: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'alias' | Файл: C:\OSPanel\domains\ishop2\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 188
+----------------------
+[2018-05-19 15:35:13] Текст ошибки: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'alias' | Файл: C:\OSPanel\domains\ishop2\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 188
+----------------------
+[2018-05-19 15:35:48] Текст ошибки: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'alias' | Файл: C:\OSPanel\domains\ishop2\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 188
+----------------------
+[2018-05-19 15:57:56] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\app\controllers\ProductController.php | Строка: 16
+----------------------
+[2018-05-19 15:58:18] Текст ошибки: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'alias' | Файл: C:\OSPanel\domains\ishop2\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 188
+----------------------
+[2018-05-19 15:59:06] Текст ошибки: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'alias' | Файл: C:\OSPanel\domains\ishop2\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 188
+----------------------
+[2018-05-19 16:07:10] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DELECTE FROM attribute_product WHERE product_id = 2' at line 1 | Файл: C:\OSPanel\domains\ishop2\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 188
+----------------------
+[2018-05-19 16:07:56] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DELECTE FROM attribute_product WHERE product_id = 2' at line 1 | Файл: C:\OSPanel\domains\ishop2\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 188
+----------------------
+[2018-05-19 16:08:22] Текст ошибки: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'alias' | Файл: C:\OSPanel\domains\ishop2\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 188
+----------------------
+[2018-05-19 16:08:57] Текст ошибки: Нет соединения с БД | Файл: C:\OSPanel\domains\ishop2\vendor\ishop\core\Db.php | Строка: 17
+----------------------
+[2018-05-19 16:08:59] Текст ошибки: Нет соединения с БД | Файл: C:\OSPanel\domains\ishop2\vendor\ishop\core\Db.php | Строка: 17
+----------------------
+[2018-05-19 16:09:45] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DELECTE FROM attribute_product WHERE product_id = 2' at line 1 | Файл: C:\OSPanel\domains\ishop2\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 188
+----------------------
+[2018-05-19 16:12:37] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\app\controllers\ProductController.php | Строка: 16
+----------------------
+[2018-05-19 16:21:12] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\app\controllers\ProductController.php | Строка: 16
+----------------------
+[2018-05-19 16:21:12] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\vendor\ishop\core\Router.php | Строка: 44
+----------------------
+[2018-05-19 17:50:03] Текст ошибки: Invalid type: attribute_group | Файл: C:\OSPanel\domains\ishop2\vendor\gabordemooij\redbean\RedBeanPHP\Util\DispenseHelper.php | Строка: 77
+----------------------
+[2018-05-19 17:50:03] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\vendor\ishop\core\Router.php | Строка: 44
+----------------------
+[2018-05-19 18:02:56] Текст ошибки: Plugin 'xdispense' does not exist, add this plugin using: R::ext('xdispense') | Файл: C:\OSPanel\domains\ishop2\vendor\gabordemooij\redbean\RedBeanPHP\Facade.php | Строка: 2766
+----------------------
+[2018-05-19 22:49:00] Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ishop2.attribute_poduct' doesn't exist | Файл: C:\OSPanel\domains\ishop2\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 188
+----------------------
+[2018-05-19 22:49:00] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2\vendor\ishop\core\Router.php | Строка: 44
+----------------------
+[2018-05-19 23:27:40] Текст ошибки: Метод app\controllers\admin\CurrencyController::editAction не найден | Файл: C:\OSPanel\domains\ishop2\vendor\ishop\core\Router.php | Строка: 38
+----------------------

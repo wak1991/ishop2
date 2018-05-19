@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Май 18 2018 г., 00:13
+-- Время создания: Май 19 2018 г., 23:47
 -- Версия сервера: 5.6.37
--- Версия PHP: 5.6.31
+-- Версия PHP: 7.1.7
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -44,7 +44,8 @@ INSERT INTO `attribute_group` (`id`, `title`) VALUES
 (2, 'Стекло'),
 (3, 'Ремешок'),
 (4, 'Корпус'),
-(5, 'Индикация');
+(5, 'Индикация'),
+(7, 'Тестовая группа 2');
 
 -- --------------------------------------------------------
 
@@ -342,8 +343,8 @@ CREATE TABLE `product` (
 
 INSERT INTO `product` (`id`, `category_id`, `brand_id`, `title`, `alias`, `content`, `price`, `old_price`, `status`, `keywords`, `description`, `img`, `hit`) VALUES
 (1, 6, 1, 'Casio MRP-700-1AVEF', 'casio-mrp-700-1avef', NULL, 300, 0, '1', NULL, NULL, 'p-1.png', '0'),
-(2, 6, 1, 'Casio MQ-24-7BUL', 'casio-mq-24-7bul', '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tristique, diam in consequat iaculis, est purus iaculis mauris, imperdiet facilisis ante ligula at nulla. Quisque volutpat nulla risus, id maximus ex aliquet ut. Suspendisse potenti. Nulla varius lectus id turpis dignissim porta. Quisque magna arcu, blandit quis felis vehicula, feugiat gravida diam. Nullam nec turpis ligula. Aliquam quis blandit elit, ac sodales nisl. Aliquam eget dolor eget elit malesuada aliquet. In varius lorem lorem, semper bibendum lectus lobortis ac.</p>\n\n                                            <p>Mauris placerat vitae lorem gravida viverra. Mauris in fringilla ex. Nulla facilisi. Etiam scelerisque tincidunt quam facilisis lobortis. In malesuada pulvinar neque a consectetur. Nunc aliquam gravida purus, non malesuada sem accumsan in. Morbi vel sodales libero.</p>', 70, 80, '1', NULL, NULL, 'p-2.png', '1'),
-(3, 6, 1, 'Casio GA-1000-1AER', 'casio-ga-1000-1aer', NULL, 400, 0, '1', NULL, NULL, 'p-3.png', '1'),
+(2, 6, 1, 'Casio MQ-24-7BUL', 'casio-mq-24-7bul', '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tristique, diam in consequat iaculis, est purus iaculis mauris, imperdiet facilisis ante ligula at nulla. Quisque volutpat nulla risus, id maximus ex aliquet ut. Suspendisse potenti. Nulla varius lectus id turpis dignissim porta. Quisque magna arcu, blandit quis felis vehicula, feugiat gravida diam. Nullam nec turpis ligula. Aliquam quis blandit elit, ac sodales nisl. Aliquam eget dolor eget elit malesuada aliquet. In varius lorem lorem, semper bibendum lectus lobortis ac.</p>\r\n\r\n<p>Mauris placerat vitae lorem gravida viverra. Mauris in fringilla ex. Nulla facilisi. Etiam scelerisque tincidunt quam facilisis lobortis. In malesuada pulvinar neque a consectetur. Nunc aliquam gravida purus, non malesuada sem accumsan in. Morbi vel sodales libero.</p>\r\n', 70, 80, '1', '', '', 'p-2.png', '1'),
+(3, 6, 1, 'Casio GA-1000-1AER', 'casio-ga-1000-1aer', '', 400, 0, '1', '', '', 'p-3.png', '1'),
 (4, 6, 2, 'Citizen JP1010-00E', 'citizen-jp1010-00e', NULL, 400, 0, '1', NULL, NULL, 'p-4.png', '1'),
 (5, 7, 2, 'Citizen BJ2111-08E', 'citizen-bj2111-08e', NULL, 500, 0, '1', NULL, NULL, 'p-5.png', '1'),
 (6, 7, 2, 'Citizen AT0696-59E', 'citizen-at0696-59e', NULL, 350, 355, '1', NULL, NULL, 'p-6.png', '1'),
@@ -378,7 +379,7 @@ INSERT INTO `product` (`id`, `category_id`, `brand_id`, `title`, `alias`, `conte
 (38, 22, 0, 'Новый товар 5', 'novyy-tovar-5', '', 123, 0, '1', '', '', 'no_image.jpg', '0'),
 (39, 22, 0, 'Новый товар 7', 'novyy-tovar-7', '', 1, 0, '1', '', '', 'no_image.jpg', '0'),
 (40, 22, 0, 'Новый товар 7', 'novyy-tovar-7-40', '', 1, 0, '1', '', '', 'no_image.jpg', '0'),
-(41, 22, 0, 'Новый товар 8', 'novyy-tovar-8', '', 4444, 0, '1', '', '', 'no_image.jpg', '0'),
+(41, 22, 0, 'Новый товар 81', 'novyy-tovar-81', '', 4444, 0, '1', '', '', 'no_image.jpg', '0'),
 (42, 22, 0, 'Новый товар 111', 'novyy-tovar-111', '', 54, 0, '1', '', '', 'no_image.jpg', '0'),
 (43, 22, 0, 'Новый товар 71', 'novyy-tovar-71', '', 123, 0, '1', '', '', 'no_image.jpg', '0'),
 (44, 22, 0, 'Новый товар 111', 'novyy-tovar-111-44', '', 123, 0, '1', '', '', 'ca18b1ece0356fcf21e944b8bd2efe70.png', '0');
@@ -535,12 +536,12 @@ ALTER TABLE `user`
 -- AUTO_INCREMENT для таблицы `attribute_group`
 --
 ALTER TABLE `attribute_group`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 --
 -- AUTO_INCREMENT для таблицы `attribute_value`
 --
 ALTER TABLE `attribute_value`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
 --
 -- AUTO_INCREMENT для таблицы `brand`
 --
@@ -555,7 +556,7 @@ ALTER TABLE `category`
 -- AUTO_INCREMENT для таблицы `currency`
 --
 ALTER TABLE `currency`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 --
 -- AUTO_INCREMENT для таблицы `gallery`
 --

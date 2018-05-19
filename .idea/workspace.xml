@@ -2,21 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ece159be-0892-4e33-bd11-467a42d38707" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/views/admin/Product/edit.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/controllers/admin/CurrencyController.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/controllers/admin/FilterController.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/models/admin/Currency.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/models/admin/FilterAttr.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/models/admin/FilterGroup.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/views/admin/Currency/add.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/views/admin/Currency/edit.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/views/admin/Currency/index.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/views/admin/Filter/attribute-add.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/views/admin/Filter/attribute-edit.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/views/admin/Filter/attribute-group.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/views/admin/Filter/attribute.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/views/admin/Filter/group-add.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/views/admin/Filter/group-edit.php" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/CategoryController.php" afterPath="$PROJECT_DIR$/app/controllers/CategoryController.php" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/SearchController.php" afterPath="$PROJECT_DIR$/app/controllers/SearchController.php" />
       <change beforePath="$PROJECT_DIR$/app/controllers/admin/ProductController.php" afterPath="$PROJECT_DIR$/app/controllers/admin/ProductController.php" />
       <change beforePath="$PROJECT_DIR$/app/models/admin/Product.php" afterPath="$PROJECT_DIR$/app/models/admin/Product.php" />
+      <change beforePath="$PROJECT_DIR$/app/views/Category/view.php" afterPath="$PROJECT_DIR$/app/views/Category/view.php" />
+      <change beforePath="$PROJECT_DIR$/app/views/Search/index.php" afterPath="$PROJECT_DIR$/app/views/Search/index.php" />
       <change beforePath="$PROJECT_DIR$/app/views/admin/Product/add.php" afterPath="$PROJECT_DIR$/app/views/admin/Product/add.php" />
+      <change beforePath="$PROJECT_DIR$/app/views/admin/Product/edit.php" afterPath="$PROJECT_DIR$/app/views/admin/Product/edit.php" />
       <change beforePath="$PROJECT_DIR$/app/views/layouts/admin.php" afterPath="$PROJECT_DIR$/app/views/layouts/admin.php" />
-      <change beforePath="$PROJECT_DIR$/config/params.php" afterPath="$PROJECT_DIR$/config/params.php" />
-      <change beforePath="$PROJECT_DIR$/public/adminlte/my.css" afterPath="$PROJECT_DIR$/public/adminlte/my.css" />
+      <change beforePath="$PROJECT_DIR$/app/widgets/filter/filter_tpl.php" afterPath="$PROJECT_DIR$/app/widgets/filter/filter_tpl.php" />
       <change beforePath="$PROJECT_DIR$/public/adminlte/my.js" afterPath="$PROJECT_DIR$/public/adminlte/my.js" />
-      <change beforePath="$PROJECT_DIR$/public/filter/admin_filter_tpl.php" afterPath="$PROJECT_DIR$/public/filter/admin_filter_tpl.php" />
+      <change beforePath="$PROJECT_DIR$/public/images/3458ecb11fff80ee2a644a3c1ff79179.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/images/a6c908a6107dbbd53ecefbb9a15fe2a5.jpg" afterPath="" />
       <change beforePath="$PROJECT_DIR$/tmp/cache/0832c1202da8d382318e329a7c133ea0.txt" afterPath="$PROJECT_DIR$/tmp/cache/0832c1202da8d382318e329a7c133ea0.txt" />
       <change beforePath="$PROJECT_DIR$/tmp/cache/9297fd88a237b4c249515d1022b29f09.txt" afterPath="$PROJECT_DIR$/tmp/cache/9297fd88a237b4c249515d1022b29f09.txt" />
       <change beforePath="$PROJECT_DIR$/tmp/cache/c799f92d1280fb7a5aefeba08b6fae16.txt" afterPath="$PROJECT_DIR$/tmp/cache/c799f92d1280fb7a5aefeba08b6fae16.txt" />
       <change beforePath="$PROJECT_DIR$/tmp/cache/d8f64461fa85104a39f2162f647f08aa.txt" afterPath="$PROJECT_DIR$/tmp/cache/d8f64461fa85104a39f2162f647f08aa.txt" />
       <change beforePath="$PROJECT_DIR$/tmp/errors.log" afterPath="$PROJECT_DIR$/tmp/errors.log" />
+      <change beforePath="$PROJECT_DIR$/vendor/ishop/core/Db.php" afterPath="$PROJECT_DIR$/vendor/ishop/core/Db.php" />
+      <change beforePath="$PROJECT_DIR$/vendor/ishop/core/base/Controller.php" afterPath="$PROJECT_DIR$/vendor/ishop/core/base/Controller.php" />
+      <change beforePath="$PROJECT_DIR$/vendor/ishop/core/base/Model.php" afterPath="$PROJECT_DIR$/vendor/ishop/core/base/Model.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,50 +50,7 @@
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="ProductController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/admin/ProductController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="52" column="75" lean-forward="false" selection-start-line="52" selection-start-column="75" selection-end-line="52" selection-end-column="75" />
-              <folding>
-                <marker date="1526586652472" expanded="true" signature="491:632" ph="SELECT produ... product" />
-                <marker date="1526586652472" expanded="true" signature="1567:1625" ph="SELECT attr_... attribute_product" />
-                <marker date="1526586652472" expanded="true" signature="1675:1837" ph="SELECT relat... related_product" />
-                <marker date="1526586652472" expanded="true" signature="1879:1923" ph="SELECT img F... gallery" />
-                <marker date="1526586652472" expanded="true" signature="3537:3594" ph="SELECT id, t... product" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edit.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/admin/Product/edit.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="649">
-              <caret line="135" column="77" lean-forward="false" selection-start-line="135" selection-start-column="77" selection-end-line="135" selection-end-column="77" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#10;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#section#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#10;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#section#1;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="my.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/adminlte/my.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
-              <caret line="75" column="16" lean-forward="false" selection-start-line="75" selection-start-column="16" selection-end-line="75" selection-end-column="16" />
-              <folding>
-                <marker date="1526585892902" expanded="true" signature="2085:2103" ph="..." />
-                <marker date="1526585892902" expanded="true" signature="2998:3016" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -87,6 +65,9 @@
       <find>$content</find>
       <find>tit</find>
       <find>description</find>
+      <find>alia</find>
+      <find>DELECTE</find>
+      <find>список пол</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -95,34 +76,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/public/js/main.js" />
-        <option value="$PROJECT_DIR$/app/views/Category/view.php" />
-        <option value="$PROJECT_DIR$/app/views/Category/filter.php" />
-        <option value="$PROJECT_DIR$/app/widgets/filter/filter_tpl.php" />
-        <option value="$PROJECT_DIR$/vendor/ishop/core/libs/Pagination.php" />
-        <option value="$PROJECT_DIR$/app/controllers/CategoryController.php" />
-        <option value="$PROJECT_DIR$/tmp/errors.log" />
-        <option value="$PROJECT_DIR$/app/views/layouts/watches.php" />
-        <option value="$PROJECT_DIR$/app/views/layouts/login.php" />
-        <option value="$PROJECT_DIR$/app/views/admin/User/login-admin.php" />
-        <option value="$PROJECT_DIR$/app/controllers/admin/MainController.php" />
-        <option value="$PROJECT_DIR$/app/views/admin/Main/index.php" />
-        <option value="$PROJECT_DIR$/app/controllers/admin/AppController.php" />
-        <option value="$PROJECT_DIR$/vendor/ishop/core/libs/functions.php" />
-        <option value="$PROJECT_DIR$/app/views/admin/Order/view.php" />
-        <option value="$PROJECT_DIR$/app/controllers/admin/OrderController.php" />
-        <option value="$PROJECT_DIR$/app/views/admin/Order/index.php" />
-        <option value="D:/WAK/Программирование/Уроки/WebForMyself - PHP-Мастер. От теории до собственной CMS интернет-магазина/videokurs/part3/7/Menu.php" />
-        <option value="$PROJECT_DIR$/public/menu/category_admin.php" />
-        <option value="$PROJECT_DIR$/app/views/admin/Category/index.php" />
-        <option value="$PROJECT_DIR$/app/widgets/menu/Menu.php" />
-        <option value="D:/WAK/Программирование/Уроки/WebForMyself - PHP-Мастер. От теории до собственной CMS интернет-магазина/videokurs/part3/10/AppModel.php" />
         <option value="$PROJECT_DIR$/app/models/AppModel.php" />
         <option value="$PROJECT_DIR$/app/models/Category.php" />
         <option value="$PROJECT_DIR$/app/views/admin/Category/add.php" />
         <option value="$PROJECT_DIR$/app/views/admin/Category/edit.php" />
         <option value="$PROJECT_DIR$/public/menu/select.php" />
-        <option value="$PROJECT_DIR$/vendor/ishop/core/base/Model.php" />
         <option value="$PROJECT_DIR$/app/controllers/admin/CategoryController.php" />
         <option value="$PROJECT_DIR$/app/views/admin/Cache/index.php" />
         <option value="$PROJECT_DIR$/app/controllers/admin/CacheController.php" />
@@ -140,12 +98,35 @@
         <option value="$PROJECT_DIR$/public/filter/admin_filter_tpl.php" />
         <option value="$PROJECT_DIR$/config/params.php" />
         <option value="$PROJECT_DIR$/public/adminlte/my.css" />
-        <option value="$PROJECT_DIR$/app/views/layouts/admin.php" />
-        <option value="$PROJECT_DIR$/app/views/admin/Product/add.php" />
-        <option value="$PROJECT_DIR$/app/models/admin/Product.php" />
-        <option value="$PROJECT_DIR$/public/adminlte/my.js" />
+        <option value="D:/WAK/Программирование/Уроки/WebForMyself - PHP-Мастер. От теории до собственной CMS интернет-магазина/videokurs/part3/26/ProductController.php" />
         <option value="$PROJECT_DIR$/app/controllers/admin/ProductController.php" />
+        <option value="$PROJECT_DIR$/app/models/admin/Product.php" />
+        <option value="$PROJECT_DIR$/app/controllers/CategoryController.php" />
+        <option value="$PROJECT_DIR$/app/controllers/SearchController.php" />
+        <option value="$PROJECT_DIR$/app/views/Search/index.php" />
+        <option value="$PROJECT_DIR$/app/views/Category/view.php" />
+        <option value="$PROJECT_DIR$/app/views/layouts/admin.php" />
+        <option value="$PROJECT_DIR$/app/views/admin/Filter/attribute-group.php" />
+        <option value="$PROJECT_DIR$/app/views/admin/Filter/group-add.php" />
+        <option value="$PROJECT_DIR$/app/models/admin/FilterGroup.php" />
+        <option value="$PROJECT_DIR$/app/models/admin/FilterAttr.php" />
+        <option value="$PROJECT_DIR$/vendor/ishop/core/base/Model.php" />
+        <option value="$PROJECT_DIR$/vendor/ishop/core/Db.php" />
+        <option value="$PROJECT_DIR$/app/widgets/filter/filter_tpl.php" />
+        <option value="$PROJECT_DIR$/app/views/admin/Filter/attribute.php" />
         <option value="$PROJECT_DIR$/app/views/admin/Product/edit.php" />
+        <option value="$PROJECT_DIR$/app/views/admin/Product/add.php" />
+        <option value="$PROJECT_DIR$/public/adminlte/my.js" />
+        <option value="$PROJECT_DIR$/app/views/admin/Filter/attribute-add.php" />
+        <option value="$PROJECT_DIR$/vendor/ishop/core/base/Controller.php" />
+        <option value="$PROJECT_DIR$/app/views/admin/Filter/group-edit.php" />
+        <option value="$PROJECT_DIR$/app/views/admin/Filter/attribute-edit.php" />
+        <option value="$PROJECT_DIR$/app/controllers/admin/FilterController.php" />
+        <option value="$PROJECT_DIR$/app/views/admin/Currency/index.php" />
+        <option value="$PROJECT_DIR$/app/models/admin/Currency.php" />
+        <option value="$PROJECT_DIR$/app/views/admin/Currency/add.php" />
+        <option value="$PROJECT_DIR$/app/views/admin/Currency/edit.php" />
+        <option value="$PROJECT_DIR$/app/controllers/admin/CurrencyController.php" />
       </list>
     </option>
   </component>
@@ -164,10 +145,11 @@
       <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="953" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -187,6 +169,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -194,38 +178,10 @@
               <item name="ishop2" type="b2602c69:ProjectViewProjectNode" />
               <item name="ishop2" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="ishop2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ishop2" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="ishop2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ishop2" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="ishop2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ishop2" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="ishop2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ishop2" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Product" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -270,17 +226,17 @@
       <workItem from="1526405092845" duration="9147000" />
       <workItem from="1526493808614" duration="5674000" />
       <workItem from="1526577851145" duration="10845000" />
+      <workItem from="1526726745509" duration="20043000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110727000" />
+    <option name="totallyTimeSpent" value="130770000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21503131" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20937042" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32629356" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -313,145 +269,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/WAK/Программирование/Уроки/WebForMyself - PHP-Мастер. От теории до собственной CMS интернет-магазина/videokurs/part3/7/index.php" />
-    <entry file="file://D:/WAK/Программирование/Уроки/WebForMyself - PHP-Мастер. От теории до собственной CMS интернет-магазина/videokurs/part3/7/CategoryController.php" />
-    <entry file="file://D:/WAK/Программирование/Уроки/WebForMyself - PHP-Мастер. От теории до собственной CMS интернет-магазина/videokurs/part3/7/Menu.php" />
-    <entry file="file://$PROJECT_DIR$/app/widgets/menu/Menu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="785">
-          <caret line="94" column="1" lean-forward="false" selection-start-line="94" selection-start-column="1" selection-end-line="94" selection-end-column="1" />
-          <folding>
-            <element signature="e#36#50#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/menu/category_admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/WAK/Программирование/Уроки/WebForMyself - PHP-Мастер. От теории до собственной CMS интернет-магазина/videokurs/part3/7/my.css" />
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/watches.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="218" column="0" lean-forward="false" selection-start-line="218" selection-start-column="0" selection-end-line="218" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/admin/Category/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="22" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/menu/menu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/WAK/Программирование/Уроки/WebForMyself - PHP-Мастер. От теории до собственной CMS интернет-магазина/videokurs/part3/10/CategoryController.php" />
-    <entry file="file://D:/WAK/Программирование/Уроки/WebForMyself - PHP-Мастер. От теории до собственной CMS интернет-магазина/videokurs/part3/10/AppModel.php" />
-    <entry file="file://D:/WAK/Программирование/Уроки/WebForMyself - PHP-Мастер. От теории до собственной CMS интернет-магазина/videokurs/part3/10/Category.php" />
-    <entry file="file://D:/WAK/Программирование/Уроки/WebForMyself - PHP-Мастер. От теории до собственной CMS интернет-магазина/videokurs/part3/10/add.php" />
-    <entry file="file://$PROJECT_DIR$/app/models/Category.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="4" lean-forward="false" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/menu/select.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="140" lean-forward="false" selection-start-line="1" selection-start-column="140" selection-end-line="1" selection-end-column="140" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/admin/CategoryController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="78" column="23" lean-forward="false" selection-start-line="78" selection-start-column="23" selection-end-line="78" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/admin/Category/edit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="50" column="79" lean-forward="false" selection-start-line="50" selection-start-column="79" selection-end-line="50" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/admin/CacheController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="44" lean-forward="false" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/admin/Cache/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="40" column="26" lean-forward="false" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/admin/User/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="45" column="61" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="56" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/admin/OrderController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="21" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/admin/User/edit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="60" column="32" lean-forward="false" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/ishop/core/base/Model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="59" column="20" lean-forward="false" selection-start-line="59" selection-start-column="20" selection-end-line="59" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="6" lean-forward="true" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/admin/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/WAK/Программирование/Уроки/WebForMyself - PHP-Мастер. От теории до собственной CMS интернет-магазина/videokurs/part3/15/UserController.php" />
-    <entry file="file://$PROJECT_DIR$/app/controllers/admin/UserController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="25" column="45" lean-forward="false" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/WAK/Программирование/Уроки/WebForMyself - PHP-Мастер. От теории до собственной CMS интернет-магазина/videokurs/part3/16/add.php" />
     <entry file="file://$PROJECT_DIR$/app/views/admin/User/add.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -461,32 +278,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/admin/Product.php" />
-    <entry file="file://$PROJECT_DIR$/app/views/admin/Order/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="18" column="20" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="59" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/admin/Product/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="45" column="58" lean-forward="false" selection-start-line="45" selection-start-column="58" selection-end-line="45" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/admin/Category/add.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="590">
-          <caret line="45" column="127" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="57" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/AppModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -497,39 +292,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/adminlte/bower_components/kcfinder/conf/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="25" column="19" lean-forward="false" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/public/adminlte/bower_components/kcfinder/conf/config.php" />
     <entry file="file://D:/WAK/Программирование/Уроки/WebForMyself - PHP-Мастер. От теории до собственной CMS интернет-магазина/videokurs/part3/20/admin_filter_tpl.php" />
     <entry file="file://$PROJECT_DIR$/app/widgets/filter/Filter.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="56" lean-forward="false" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
-          <folding>
-            <marker date="1526413230826" expanded="true" signature="1185:1222" ph="SELECT id, t... attribute_group" />
-            <marker date="1526413230826" expanded="true" signature="1310:1339" ph="SELECT * FRO... attribute_value" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/WAK/Программирование/Уроки/WebForMyself - PHP-Мастер. От теории до собственной CMS интернет-магазина/videokurs/part3/21/ProductController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="76" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/WAK/Программирование/Уроки/WebForMyself - PHP-Мастер. От теории до собственной CMS интернет-магазина/videokurs/part3/21/my.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://D:/WAK/Программирование/Уроки/WebForMyself - PHP-Мастер. От теории до собственной CMS интернет-магазина/videokurs/part3/21/ProductController.php" />
+    <entry file="file://D:/WAK/Программирование/Уроки/WebForMyself - PHP-Мастер. От теории до собственной CMS интернет-магазина/videokurs/part3/21/my.js" />
     <entry file="file://$PROJECT_DIR$/public/filter/admin_filter_tpl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -537,22 +311,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="582" column="30" lean-forward="false" selection-start-line="582" selection-start-column="30" selection-end-line="582" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/WAK/Программирование/Уроки/WebForMyself - PHP-Мастер. От теории до собственной CMS интернет-магазина/videokurs/part3/23/my.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="75" column="21" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="89" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://D:/WAK/Программирование/Уроки/WebForMyself - PHP-Мастер. От теории до собственной CMS интернет-магазина/videokurs/part3/23/my.js" />
     <entry file="file://$PROJECT_DIR$/public/adminlte/my.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
@@ -565,89 +324,333 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/WAK/Программирование/Уроки/WebForMyself - PHP-Мастер. От теории до собственной CMS интернет-магазина/videokurs/part3/24/Product.php" />
+    <entry file="file://D:/WAK/Программирование/Уроки/WebForMyself - PHP-Мастер. От теории до собственной CMS интернет-магазина/videokurs/part3/26/ProductController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="72" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/WAK/Программирование/Уроки/WebForMyself - PHP-Мастер. От теории до собственной CMS интернет-магазина/videokurs/part3/24/Product.php">
+    <entry file="file://$PROJECT_DIR$/app/models/AppModel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="819">
-          <caret line="196" column="5" lean-forward="true" selection-start-line="117" selection-start-column="4" selection-end-line="196" selection-end-column="5" />
+        <state relative-caret-position="153">
+          <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/WAK/Программирование/Уроки/WebForMyself - PHP-Мастер. От теории до собственной CMS интернет-магазина/videokurs/part3/26/Product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="198" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/admin/ProductController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="59" column="43" lean-forward="false" selection-start-line="59" selection-start-column="43" selection-end-line="59" selection-end-column="43" />
           <folding>
-            <marker date="1505320049243" expanded="true" signature="675:734" ph="SELECT relat... related_product" />
-            <marker date="1505320049243" expanded="true" signature="893:941" ph="DELETE FROM related_product... " />
-            <marker date="1505320049243" expanded="true" signature="1321:1381" ph="INSERT INTO related_product... " />
-            <marker date="1505320049243" expanded="true" signature="1714:1762" ph="DELETE FROM related_product... " />
-            <marker date="1505320049243" expanded="true" signature="2030:2090" ph="INSERT INTO related_product... " />
-            <marker date="1505320049243" expanded="true" signature="2208:2266" ph="SELECT attr_... attribute_product" />
-            <marker date="1505320049243" expanded="true" signature="2405:2455" ph="DELETE FROM attribute_product... " />
-            <marker date="1505320049243" expanded="true" signature="2783:2842" ph="INSERT INTO attribute_product... " />
-            <marker date="1505320049243" expanded="true" signature="3092:3142" ph="DELETE FROM attribute_product... " />
-            <marker date="1505320049243" expanded="true" signature="3374:3433" ph="INSERT INTO attribute_product... " />
-            <marker date="1505320049243" expanded="true" signature="3946:3991" ph="INSERT INTO gallery... " />
+            <marker date="1526733152149" expanded="true" signature="491:632" ph="SELECT produ... product" />
+            <marker date="1526733152149" expanded="true" signature="2575:2633" ph="SELECT attr_... attribute_product" />
+            <marker date="1526733152149" expanded="true" signature="2683:2845" ph="SELECT relat... related_product" />
+            <marker date="1526733152149" expanded="true" signature="2887:2931" ph="SELECT img F... gallery" />
+            <marker date="1526733152149" expanded="true" signature="4545:4602" ph="SELECT id, t... product" />
+            <marker date="1526733152149" expanded="true" signature="4901:4908" ph="{...}" />
+            <marker date="1526733152149" expanded="true" signature="5154:5206" ph="DELETE FROM gallery... " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/admin/Product.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="118" column="38" lean-forward="false" selection-start-line="118" selection-start-column="38" selection-end-line="118" selection-end-column="38" />
+        <state relative-caret-position="490">
+          <caret line="57" column="30" lean-forward="false" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
           <folding>
-            <marker date="1526584815803" expanded="true" signature="681:740" ph="SELECT relat... related_product" />
-            <marker date="1526584815803" expanded="true" signature="1305:1365" ph="INSERT INTO related_product... " />
-            <marker date="1526584815803" expanded="true" signature="1983:2043" ph="INSERT INTO related_product... " />
-            <marker date="1526584815803" expanded="true" signature="2166:2224" ph="SELECT attr_... atrrribute_product" />
-            <marker date="1526584815803" expanded="true" signature="2749:2808" ph="INSERT INTO attribute_product... " />
-            <marker date="1526584815803" expanded="true" signature="2749:2809" ph="INSERT INTO attribute_product... " />
-            <marker date="1526584815803" expanded="true" signature="3342:3401" ph="INSERT INTO attribute_product... " />
-            <marker date="1526584815803" expanded="true" signature="3927:3972" ph="INSERT INTO gallery... " />
-            <marker date="1526584815803" expanded="true" signature="3927:3973" ph="INSERT INTO gallery... " />
+            <marker date="1526735519014" expanded="true" signature="681:740" ph="SELECT relat... related_product" />
+            <marker date="1526735519014" expanded="true" signature="905:952" ph="DELETE FROM related_product... " />
+            <marker date="1526735519014" expanded="true" signature="1304:1364" ph="INSERT INTO related_product... " />
+            <marker date="1526735519014" expanded="true" signature="1699:1746" ph="DELETE FROM related_product... " />
+            <marker date="1526735519014" expanded="true" signature="1981:2041" ph="INSERT INTO related_product... " />
+            <marker date="1526735519014" expanded="true" signature="2164:2222" ph="SELECT attr_... attribute_product" />
+            <marker date="1526735519014" expanded="true" signature="2367:2417" ph="DELETE FROM attribute_product... " />
+            <marker date="1526735519014" expanded="true" signature="2747:2806" ph="INSERT INTO attribute_product... " />
+            <marker date="1526735519014" expanded="true" signature="3100:3150" ph="DELETE FROM attribute_product... " />
+            <marker date="1526735519014" expanded="true" signature="3383:3442" ph="INSERT INTO attribute_product... " />
+            <marker date="1526735519014" expanded="true" signature="3968:4013" ph="INSERT INTO gallery... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/adminlte/my.js">
+    <entry file="file://$PROJECT_DIR$/app/controllers/SearchController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="75" column="16" lean-forward="false" selection-start-line="75" selection-start-column="16" selection-end-line="75" selection-end-column="16" />
+        <state relative-caret-position="391">
+          <caret line="23" column="73" lean-forward="false" selection-start-line="23" selection-start-column="73" selection-end-line="23" selection-end-column="73" />
           <folding>
-            <marker date="1526585892902" expanded="true" signature="2085:2103" ph="..." />
-            <marker date="1526585892902" expanded="true" signature="2998:3016" ph="..." />
+            <marker date="1526735886174" expanded="true" signature="301:362" ph="SELECT id, t... product" />
+            <marker date="1526735886174" expanded="true" signature="301:375" ph="SELECT id, t... product" />
+            <marker date="1526735886174" expanded="true" signature="301:379" ph="SELECT id, t... product" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/admin/ProductController.php">
+    <entry file="file://$PROJECT_DIR$/app/views/Category/view.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="52" column="75" lean-forward="false" selection-start-line="52" selection-start-column="75" selection-end-line="52" selection-end-column="75" />
+        <state relative-caret-position="357">
+          <caret line="24" column="65" lean-forward="false" selection-start-line="24" selection-start-column="65" selection-end-line="24" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/Search/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="57" lean-forward="true" selection-start-line="25" selection-start-column="57" selection-end-line="25" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/CategoryController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="45" column="58" lean-forward="false" selection-start-line="45" selection-start-column="58" selection-end-line="45" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="370" column="66" lean-forward="false" selection-start-line="370" selection-start-column="66" selection-end-line="370" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/Cache/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="40" column="26" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/Category/add.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="573">
+          <caret line="45" column="127" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="57" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/admin/FilterGroup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="18" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/admin/FilterAttr.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="30" lean-forward="false" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/admin/AppController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/ishop/core/base/Model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="34" column="32" lean-forward="false" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/ishop/core/Db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="25" lean-forward="false" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/widgets/filter/filter_tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="28" lean-forward="false" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/Filter/attribute-group.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="19" column="134" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="46" selection-end-column="18" />
           <folding>
-            <marker date="1526586652472" expanded="true" signature="491:632" ph="SELECT produ... product" />
-            <marker date="1526586652472" expanded="true" signature="1567:1625" ph="SELECT attr_... attribute_product" />
-            <marker date="1526586652472" expanded="true" signature="1675:1837" ph="SELECT relat... related_product" />
-            <marker date="1526586652472" expanded="true" signature="1879:1923" ph="SELECT img F... gallery" />
-            <marker date="1526586652472" expanded="true" signature="3537:3594" ph="SELECT id, t... product" />
+            <marker date="1526739367341" expanded="true" signature="799:1007" ph="..." />
+            <marker date="1526739367341" expanded="true" signature="832:970" ph="..." />
+            <marker date="1526739367341" expanded="true" signature="1043:1288" ph="..." />
+            <marker date="1526739367341" expanded="true" signature="1146:1288" ph="..." />
+            <marker date="1526739367341" expanded="true" signature="1243:1288" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/admin/Product/add.php">
+    <entry file="file://$PROJECT_DIR$/app/views/admin/Filter/attribute.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="90" column="54" lean-forward="false" selection-start-line="90" selection-start-column="54" selection-end-line="90" selection-end-column="54" />
+        <state relative-caret-position="357">
+          <caret line="36" column="94" lean-forward="false" selection-start-line="36" selection-start-column="94" selection-end-line="36" selection-end-column="94" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/admin/Product/edit.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="649">
-          <caret line="135" column="77" lean-forward="false" selection-start-line="135" selection-start-column="77" selection-end-line="135" selection-end-column="77" />
+        <state relative-caret-position="153">
+          <caret line="21" column="87" lean-forward="true" selection-start-line="21" selection-start-column="87" selection-end-line="21" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/Product/add.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="35" column="56" lean-forward="false" selection-start-line="35" selection-start-column="56" selection-end-line="35" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/adminlte/my.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="131" column="8" lean-forward="false" selection-start-line="131" selection-start-column="8" selection-end-line="131" selection-end-column="8" />
           <folding>
-            <element signature="n#style#0;n#img#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#10;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#section#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#10;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#section#1;n#!!top" expanded="true" />
+            <marker date="1526745211253" expanded="true" signature="3016:3034" ph="..." />
+            <marker date="1526745211253" expanded="true" signature="3929:3947" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/ishop/core/base/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="40" column="46" lean-forward="false" selection-start-line="40" selection-start-column="46" selection-end-line="40" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/Filter/group-edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="27" column="79" lean-forward="false" selection-start-line="27" selection-start-column="79" selection-end-line="27" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/Filter/attribute-add.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="72" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="43" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/Filter/attribute-edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="35" column="79" lean-forward="false" selection-start-line="35" selection-start-column="79" selection-end-line="35" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_8.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="919" column="9" lean-forward="false" selection-start-line="919" selection-start-column="9" selection-end-line="919" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/Order/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="18" column="20" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="59" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/Currency/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="53" lean-forward="false" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/admin/Currency.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="8" lean-forward="false" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/admin/FilterController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="110" selection-end-column="48" />
+          <folding>
+            <marker date="1526759358003" expanded="true" signature="469:509" ph="DELETE FROM attribute_group... " />
+            <marker date="1526759358003" expanded="true" signature="694:741" ph="DELETE FROM attribute_poduct... " />
+            <marker date="1526759358003" expanded="true" signature="770:810" ph="DELETE FROM attribute_value... " />
+            <marker date="1526759358003" expanded="true" signature="3729:3872" ph="SELECT attri... attribute_value" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/Filter/group-add.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="21" column="124" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="34" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/Currency/add.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="50" column="65" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="63" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/admin/CurrencyController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="22" column="19" lean-forward="false" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/Currency/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="56" column="79" lean-forward="false" selection-start-line="56" selection-start-column="79" selection-end-line="56" selection-end-column="79" />
+          <folding />
         </state>
       </provider>
     </entry>

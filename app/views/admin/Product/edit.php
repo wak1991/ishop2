@@ -33,7 +33,7 @@
                                 'class' => 'form-control',
                                 'attrs' => [
                                     'name' => 'category_id',
-                                    'id' => 'parent_id',
+                                    'id' => 'category_id',
                                 ],
                             ]) ?>
                         </div>
